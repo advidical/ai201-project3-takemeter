@@ -46,6 +46,8 @@
 
 <!-- NOTE: This content goes in the README under the "## Label Taxonomy" section of the label spec. -->
 
+<!-- NOTE: This content goes in the README under the "## Label Taxonomy" section of the label spec. -->
+
 ## Label Taxonomy
 
 <!-- Each label: a one-sentence definition and two real examples from your
@@ -58,8 +60,7 @@
 
 #### `help_request`
 
-**Definition**: The writer asks what to do, use, or choose for their own project or channel,
-or asks for feedback on it.
+**Definition:** The writer asks what to do, use, or choose for their own project or channel, or asks for feedback on it.
 
 <details>
 <summary><b>Full definition</b></summary>
@@ -136,47 +137,14 @@ text, screenshots) doesn't change the label if the ask is what to do.
 >
 > Do you find that your videos perform better when uploaded at a different time of day? If so, what is it?
 
-#### `analytical_inquiry`
-
-**Definition:** The writer brings evidence they gathered and asks an open question about the world.
-
-<details>
-<summary><b>Full definition</b></summary>
-
-Brings specific, checkable evidence the writer has gathered (a date, a stat, a quote, a named comparison, a cited work) and uses it to ask the community an open question about the world: whether something is true, whether something changed, whether an observed pattern is real, or why. Both parts are required: the writer must bring evidence they gathered, and the ask must be about the world rather than about what the writer should do. An open "why?" or "what happened?" question with no gathered evidence is not `analytical_inquiry`. The writer's feelings or personal motive may be visible, even strong, and don't change the label: if the post stands as an evidence-plus-question post with the feelings removed, it's this label.
-
-</details>
-
-**Example 1:**
-
-> ### Who was the first person to refer to their video as a Let's Play?
->
-> **tag: 🗨️ Discussion**
->
-> Most sources I can find claim that slowbeef was the first person to make a video in the format that we now use to describe a Let's Play, video footage of a game with player commentary, opinions, and reactions played over it. His video was uploaded on Jan 19, 2007. What I'm looking for is the first documented instance of someone calling their game a Let's Play. Wikipedia states that the term itself was coined on the SomethingAwful forums in 2007, although the exact origin is unclear.
->
-> Through my own research I've found the video Let's Play La-Mulana 001: Surface by DeceasedCrab, uploaded on March 28, 2007. As far as I've found, this is the first instance of someone titling their video as a Let's Play. I may be wrong, but I can't find anything earlier than that. I'm curious what you all think, if anyone can find something earlier than that please share!
-
-**Example 2:**
-
-> ### Why do I have two different AVD percentages for the same video?
->
-> **tag: 🗨️ Discussion**
->
-> The first image is my average view duration of a video that is 17:40 mins long. The second image is the average view duration on the summary page of the same video.
->
-> Why does one page say average view duration of 7:15 mins (41.1%), while the other page of the same video says average view duration of 3:15 mins (18.5%)?
->
-> Has YouTube not updated the stats for the video yet?
-
 #### `reaction`
 
-**Definition:** The writer responds, with feeling, to a specific thing that happened to them or that they witnessed.
+**Definition:** The writer responds, with feeling, to a specific thing that happened to them or that they witnessed, or to a stretch of their own experience that has already happened.
 
 <details>
 <summary><b>Full definition</b></summary>
 
-A response to a specific thing that happened to the writer or that they witnessed (an event, result, milestone, change, or piece of news), whether it just happened or not. The writer's feelings about it are the point. A question tacked on at the end ("has anyone else noticed this?") doesn't disqualify it. Habits, trends, and general opinions with no specific triggering event don't count. If the post still stands as a gathered-evidence question after the feeling sentences are removed, it's `analytical_inquiry` instead.
+A response to a specific thing that happened to the writer or that they witnessed (an event, result, milestone, change, or piece of news), whether it just happened or not. The writer's feelings about it are the point. A question tacked on at the end ("has anyone else noticed this?") doesn't disqualify it. It can also be a response to the writer's own accumulated experience (an ongoing struggle or a run of results over days, months, or years) when all four of these hold: it is the writer's own situation, not a claim about creators or the world; what's left after the feeling sentences are removed is a status report (events, numbers, history) with no advice, lesson, or standalone question; the only ask, if any, is for support or a "me too" ("have any of you felt this way?", "how did you keep going?"), not for an action, technique, tool, or fix; and the feelings respond to what has already happened, not to a worry about the future. Habits, trends, and general opinions about creators or the world, with no personal event or record behind them, don't count. Lessons or retrospectives offered to others, and recruitment or survey posts, don't count either, even when emotional. If the post still stands as a question about the world or a topic after the feeling sentences are removed, it's `general_discussion` instead.
 
 </details>
 
@@ -220,19 +188,33 @@ A response to a specific thing that happened to the writer or that they witnesse
 >
 > Just need to rant and get it off my chest.
 
+**Example 3: borderline case (accumulated experience)**
+
+> ### I'm starting to feel like being a full-time content creator might not be within reach.
+>
+> Hey everyone, I’ve been feeling a bit down lately and wanted to be honest with you all. I’m starting to feel like being a full-time content creator might not be within reach anymore. It’s tough to keep pushing sometimes, but I’d really love to hear your thoughts. Have any of you felt this way on your journey? How did you keep going or find motivation? Drop a comment and share your experiences, it would mean a lot to me!
+>
+> Additionally, my channel has 2191 sub 121,000 Watch hours and 1,643,856 views in the course of 5 years and honestly feel like I should just get a second job, since finance is getting tough.
+
 #### `general_discussion`
 
-**Definition:** Anything that fits none of the other three: general opinions, recommendations, or news, with no project, event, or gathered evidence at its center.
+**Definition:** The writer opens a conversation or asks the community an open question: opinions, recommendations, how or why something works, or a question backed by evidence they found.
 
 <details>
 <summary><b>Full definition</b></summary>
 
-A post that doesn't fit `reaction`, `help_request`, or `analytical_inquiry`.
-Typically opens a conversation, asks for opinions, experiences, or
-recommendations for general interest, or shares news or updates, without
-being centered on a specific event the writer is reacting to, a project
-they are working on, or evidence they gathered. Use this only after the
-other three have been ruled out.
+A post that opens a conversation or asks the community something, without being
+centered on the writer's own project ask (`help_request`) or on the writer's own
+experience, a specific event or an accumulated stretch of it, plus their feelings
+about it (`reaction`). This includes:
+asking for opinions, experiences, or recommendations for general interest, or
+starting a conversation about something that interests the writer; open
+questions about how something works, whether something is true or has changed,
+or why, with or without evidence the writer gathered (a date, a stat, a quote, a
+named comparison, a cited work); news or updates; and requests to recruit
+collaborators or study participants for the writer's project. Evidence in the
+post doesn't change the label. Feelings may be visible, but if they aren't the
+point of the post, it stays here.
 
 </details>
 
@@ -272,6 +254,28 @@ other three have been ruled out.
 >
 > Dc:[REDACTED]
 
+**Example 3: discussion with evidence**
+
+> ### Who was the first person to refer to their video as a Let's Play?
+>
+> **tag: 🗨️ Discussion**
+>
+> Most sources I can find claim that slowbeef was the first person to make a video in the format that we now use to describe a Let's Play, video footage of a game with player commentary, opinions, and reactions played over it. His video was uploaded on Jan 19, 2007. What I'm looking for is the first documented instance of someone calling their game a Let's Play. Wikipedia states that the term itself was coined on the SomethingAwful forums in 2007, although the exact origin is unclear.
+>
+> Through my own research I've found the video Let's Play La-Mulana 001: Surface by DeceasedCrab, uploaded on March 28, 2007. As far as I've found, this is the first instance of someone titling their video as a Let's Play. I may be wrong, but I can't find anything earlier than that. I'm curious what you all think, if anyone can find something earlier than that please share!
+
+**Example 4: discussion with evidence**
+
+> ### Why do I have two different AVD percentages for the same video?
+>
+> **tag: 🗨️ Discussion**
+>
+> The first image is my average view duration of a video that is 17:40 mins long. The second image is the average view duration on the summary page of the same video.
+>
+> Why does one page say average view duration of 7:15 mins (41.1%), while the other page of the same video says average view duration of 3:15 mins (18.5%)?
+>
+> Has YouTube not updated the stats for the video yet?
+
 ### Decision Tree
 
 Judge by the literal ask, not the writer's motivation, the presence of
@@ -282,100 +286,108 @@ evidence, or the feelings you'd expect behind the post. Stop at the first yes.
    - Triggers only on the literal question. If the answer is a fact
      about the world ("which help page is correct?"), it doesn't count even
      if the writer has a project reason for asking.
-   - A general preference poll about the topic doesn't trigger it either, UNLESS the post frames it
+   - A general preference poll doesn't trigger it either, UNLESS the post frames it
      as the writer's own decision ("what should I do?" vs "what are your thoughts about this?")
      For the poll to be framed as writer's decision, it must state their current approach and a
-     problem with it (e.g. "I upload at noon and views are low, what works for you?"). A poll with no stated problem or own-channel context ("what do you all prefer?") fails.
+     problem with it (e.g. "I upload at noon and views are low, what works for you?"). A poll with no
+     stated problem or own-channel context ("what do you all prefer?") stays
+     `general_discussion`.
    - Evidence in the post doesn't change this.
 
      **Edge cases to consider**:
      - A question about how to categorize or frame the writer's own content (does this game fit my series, should this go in a playlist) counts as a decision about their own channel, even if stakes are low or says they'll proceed either way. It is `general_discussion` only if the ask is about the topic in general with no tie to the writer's own content.
+     - A support-only ask ("have any of you felt this way?", "how did you keep going or find motivation?") with no request for an action, technique, tool, or fix doesn't trigger this step. Any ask for something to do, try, use, or fix DOES ("is there a trick?", "any general advice?").
      - A request to recruit a collaborator, partner, or participant for the
        writer's project (rather than asking for advice, suggestions, or
        direction) doesn't trigger this step: falls through to `general_discussion`
-       unless a later step matches
+       unless a later step matches. This includes requests to take part in a
+       survey or study.
 
      NOTE: **DO NOT** run the strip test until this step has said no.
 
-2. **Did the writer bring _gathered_, checkable evidence AND ask an _open
-   question about the world_?** → `analytical_inquiry`
+2. **Is the post centered on the writer's own experience that has already
+   happened, plus their feelings about it?** → `reaction`.
 
-   Run the **Strip test**: delete the feeling sentences/words.
-   If a complete post with gathered evidence and an open question remains, it's this label.
+   That experience is either (a) a specific thing that happened (an event, result, milestone,
+   or change), or (b) an accumulated stretch of experience (an ongoing struggle or a
+   run of results over days, months, or years).
 
-   Clarification regarding terms used above:
-   - **"_Gathered_"** means the writer counted, compared, looked up, or checked
-     something. Numbers that are just what happened to them (views after a
-     hit, subs gained) are part of the story and don't count. A source
-     mentioned without specifics about where it came from or what it showed
-     ("apparently", "I read somewhere", "someone told me") isn't gathered
-     evidence either.
-   - **"_Open question about the world_"** means a good reply could be a fact or an
-     explanation, or a confirmation or denial of a pattern they observed. It
-     fails only if the reply wanted is shared feeling about something that
-     happened to the writer ("has this happened to anyone else?" after an
-     event).
+   For (b), all four must hold:
+   1. **Personal:** it's the writer's own situation, not a claim about creators
+      or the world.
+   2. **Strip test:** what's left without the feelings is a status report
+      (events, numbers, history), with no advice, lesson, or standalone question
+      about a topic.
+   3. **Ask:** none, or only a support or "me too" ask. Any ask for an action,
+      technique, tool, or fix was already caught at step 1.
+   4. **Past-facing:** the feelings respond to what has happened, not to a worry
+      about the future ("I'm afraid I'll be boring" is not this).
 
-3. **Is the post centered on a specific thing that happened (an event, result,
-   milestone, or change), plus the writer's feelings about it?** → `reaction`
+   Not this label, even if emotional: lessons or retrospectives offered to
+   others, general opinions about creators or trends, and recruitment or survey
+   posts.
 
-   When you run the strip test & get no on step #2: a reaction post will end up
-   looking incomplete, with no ask or call to action. As long as what's left focuses
-   on a specific event that personally affected the writer, it's this label.
+   Run the **Strip test**: delete the feeling sentences/words and read what's left.
+   - If what's left is a bare event, or a question that only asks others to
+     confirm they had the same experience ("has this happened to anyone else?",
+     "did anyone else notice?"), it's this label. A reaction post will end up
+     looking incomplete, with no ask or call to action. As long as what's left
+     focuses on a specific event that personally affected the writer, it's this label.
+   - If what's left is a standalone question about the world or a topic (how
+     something works, whether something is true, why) or any other conversation
+     starter, it's `general_discussion`, even if the feelings were strong.
+     Evidence the writer brought doesn't change this.
 
-4. **None of the above** → `general_discussion`
+3. **None of the above** → `general_discussion`
 
 ### The hardest boundary
-
-**Which two labels:** `reaction` vs `analytical_inquiry`
-
-**The decision rule I used every time:**
-
-First confirm the post isn't a `help_request`. Then delete the sentences that
-express the writer's feelings and read what's left.
-
-- If what's left has evidence the writer gathered (not just details of the
-  event) and a question whose answer could be a fact or explanation, label it
-  `analytical_inquiry`, even if the feelings were strong.
-- If what's left is a bare event, evidence that's just part of the story, or
-  a question that only wants "me too," label it `reaction`.
-
-### Other boundaries to keep in mind
 
 **Which two labels:** `reaction` vs `general_discussion`
 
 **The decision rule I used every time:**
 
-Ask whether a specific thing happened.
+First confirm the post isn't a `help_request`. Then ask whether the post is
+about something that already happened to the writer, either a specific event or
+a stretch of their own experience, and delete the sentences that express the
+writer's feelings and read what's left.
 
 - If the post is about a specific event, result, milestone, or change that
-  happened to the writer, and their feelings about it are the point, label it
+  happened to the writer, their feelings about it are the point, and what's left
+  without the feelings is a bare event or a "me too" question, label it
   `reaction`. A question at the end doesn't change this.
-- If the post is a habit, trend, preference, or general opinion with no
-  triggering event, label it `general_discussion`, even if the tone is
-  emotional.
+- If there's no single event but the post describes the writer's own accumulated
+  experience (days, months, or years), the feelings are the point, what's left is
+  a status report, and the only ask is for support or a "me too" ("how did you
+  keep going?"), label it `reaction`. A lesson, tip list, or retrospective
+  offered to others is `general_discussion` even though it is personal.
+- If the post is a habit, trend, preference, or general opinion with no personal
+  event or record behind it, or what's left is a standalone question about the
+  world or a topic, label it `general_discussion`, even if the tone is emotional
+  or the writer brought evidence.
 
----
+### Other boundaries to keep in mind
 
-**Which two labels:** `help_request` vs `analytical_inquiry`
+**Which two labels:** `help_request` vs `general_discussion`
 
 **The decision rule I used every time:**
 
 Read the literal question and ask what a good reply would be.
 
-- If it's an action or choice for the writer ("should I dispute it?", "which style should I commit to?"):
-  it's `help_request`, even with evidence in the post.
-- If it's a fact or explanation about the world ("which help page is correct?", "is the drop real?"):
-  it's `analytical_inquiry`, even when the writer has a project reason for asking.
+- If it's an action, choice, or piece of feedback for the writer's own project
+  or channel ("should I dispute it?", "which style should I commit to?",
+  "is my intro too long?"): it's `help_request`, even with evidence in the post.
+- If it's an opinion, recommendation, or fact about the world or a topic
+  ("which help page is correct?", "what are your favorite horror games?"): it's
+  `general_discussion`, even when the writer has a project reason for asking.
 
 ### Annotator checklist
 
 Do these in order for every post, before judging tone.
 
 1. **Write down the literal ask.** Quote the sentence that is actually asking for something. A "just wanted to vent" line or a title can be a decoy; the real ask can be buried mid-post.
-2. **Write down whether there is gathered evidence.** Did the writer count, compare, look up, or check something? Or are the numbers just what happened to them?
-3. **Write down whether a specific event happened** to or around the writer.
-4. **Run the decision tree in order**, and stop at the first yes. Run step 1 before the strip test, every time.
+2. **Write down what the question is about.** Is it about the writer's own project, a question about the world or a topic, or only a request for others to confirm they had the same experience?
+3. **Write down whether a specific event happened** to or around the writer, or whether the post describes a stretch of the writer's own experience that has already happened (not a worry about the future). Then check whether the post is lessons or opinions offered to others instead.
+4. **Run the tie-breaker in order**, and stop at the first yes. Run step 1 before the strip test, every time.
 5. **Empathy flag:** If you notice yourself thinking "I'd feel that too," that's a cue to slow down and run the strip test, not a reason to label `reaction`.
 6. **Own-content test:** Would a plain yes or no reply tell the writer something to do with their own content (a series, a playlist, an upload)? If so, it's `help_request`, even when the stakes are low.
 7. **Mark low-confidence labels** where two steps both felt right. Those posts are the ones that tell you a definition needs tightening.

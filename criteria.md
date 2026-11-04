@@ -6,14 +6,14 @@ unit 5 **before** anything was trained.
 **All five are yours this time.** None are given. You've had two projects of
 practice.
 
-An acceptance criterion names a number. *"The model is accurate"* is an
-opinion. *"Every label has an F1 of at least 0.60 on the held-out set"* is a
+An acceptance criterion names a number. _"The model is accurate"_ is an
+opinion. _"Every label has an F1 of at least 0.60 on the held-out set"_ is a
 criterion.
 
 Under each, write a sentence or two on **why that number**. A reason that says
-something about your data or your taxonomy earns credit — *"I picked 0.60 F1
+something about your data or your taxonomy earns credit — _"I picked 0.60 F1
 for `reaction` because it's my smallest label and I only have about 50
-examples of it"*. A reason that could be attached to any project does not.
+examples of it"_. A reason that could be attached to any project does not.
 
 > Missing your own targets next unit costs you nothing. Setting a target so
 > easy you can't miss it does.
@@ -30,13 +30,13 @@ somewhere you'd honestly call useful.
 form to fill in — a criterion that fits none of them is fine if it names a
 number.
 
-| Area | A question it could answer |
-|---|---|
-| Overall accuracy | How often does it need to be right to be worth using? |
-| Per-label performance | Is one label allowed to be much worse than the others? |
-| Balance | How lopsided can your label counts get before it's a problem? |
-| Consistency | If someone else labelled the same posts, how often should you agree? |
-| Confidence | Should a confident prediction be right more often than an unsure one? |
+| Area                  | A question it could answer                                            |
+| --------------------- | --------------------------------------------------------------------- |
+| Overall accuracy      | How often does it need to be right to be worth using?                 |
+| Per-label performance | Is one label allowed to be much worse than the others?                |
+| Balance               | How lopsided can your label counts get before it's a problem?         |
+| Consistency           | If someone else labelled the same posts, how often should you agree?  |
+| Confidence            | Should a confident prediction be right more often than an unsure one? |
 
 Two things worth knowing before you pick numbers, because both will affect
 whether you hit them:
@@ -51,63 +51,67 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Model's overall accuracy 75%
 
 <!-- Your criterion. It must name a number. -->
 
-
+The overall accuracy of the classifier should be at least be 75% for
+it to be considered useful in classifying posts.
 
 **Why this target:**
-
-
+with 4 labels, using general discussion as a catch all for posts that don't cleanly fit the
+other 3 labels, I figured it would be good to aim for a reasonable accuracy score of
+about 3x what a coin flipper would get (25% x 3 = 75%)
 
 ---
 
-## 2.
+## 2. Strict balance for all labels except general_discussion
 
-<!-- Your criterion. -->
-
-
+At a minimum, there must be 50 posts for each of the non general_discussion labels.
+For general discussion, it can have as little as 30 posts
 
 **Why this target:**
-
-
+Focuses balance on my main 3 labels, as general_discussion is a fall back label
+for when a post doesn't neatly match the other 3. Since it's 200 posts total,
+I want to ensure that each non fall back label reps at minimum 25% of total corpus.
 
 ---
 
-## 3.
+## 3. Per label performance is looser for general_discussion
 
-<!-- Your criterion. -->
-
-
+For every non-fall back label, I want to achieve a min of .7 F1 score, while allowing
+general_discussion (our fall back label) is allowed for a min of .55 F1 score.
 
 **Why this target:**
-
-
+I want to specifically focus on getting the model working and being useful for
+id'ing posts that aren't part of the fallback category. Since general discussion is
+not much of a focus, I'm ok with general discussion having a worse f1 score.
 
 ---
 
-## 4.
+## 4. Labels need to be very consistent
 
-<!-- Your criterion. -->
-
-
+Labels other than general_discussion need to be very consistent,
+go for a minimum of each label getting at least 95% across corpus.
+if this isn't met.
 
 **Why this target:**
-
-
+I want to ensure my boundary cases and overall decision tree is solid,
+which means very little variance between 2 different people if they
+look at the corpus.
 
 ---
 
-## 5.
+## 5. Confidence means better results
 
-<!-- Your criterion. -->
-
-
+Classifier should be able to have a higher score when it's confident in its
+answer than when not: the most-sure third must be at least 5% higher than the
+least-sure third.
 
 **Why this target:**
-
-
+I want the model to be able to be useful, and part of that is making
+sure it is able to back up its confidence guesses. I believe showing that
+our model is able to back up the confidence
 
 ---
 

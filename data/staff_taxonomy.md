@@ -6,7 +6,7 @@ The 30 posts in `data/staff_posts.csv` come from the same fictional running
 forum as `data/practice_labels.csv`. Staff labelled them under the three
 definitions below.
 
-**Label the 30 posts under *these* definitions, not your own.** That is the
+**Label the 30 posts under _these_ definitions, not your own.** That is the
 point of the exercise, and it is different from what you did in unit 5. Your
 own taxonomy was yours to design; this one is somebody else's to apply. What is
 being measured is whether you can take a written rule you did not write and
@@ -44,19 +44,19 @@ A post is `analysis` only if the checkable fact is load-bearing. If the number
 is decoration on a conclusion the writer had already reached, it is a
 `hot_take` with a statistic in it.
 
-> *"Super shoes have ruined racing, times are down 3% since 2017."* → `hot_take`.
+> _"Super shoes have ruined racing, times are down 3% since 2017."_ → `hot_take`.
 > The 3% is offered as a flourish, not as the reason.
 
-> *"Times are down 3% since 2017, and the shoe rule changed in 2017. That's the
-> most likely single cause."* → `analysis`. The number is the argument.
+> _"Times are down 3% since 2017, and the shoe rule changed in 2017. That's the
+> most likely single cause."_ → `analysis`. The number is the argument.
 
 **2. `reaction` vs `hot_take` — is it about a claim or about the writer?**
 
 Both are unsupported. `reaction` reports what just happened to the writer and
 how it felt. `hot_take` asserts something general about the world.
 
-> *"That finish was unbelievable, I'm shaking."* → `reaction`.
-> *"That was the best race of the decade."* → `hot_take`.
+> _"That finish was unbelievable, I'm shaking."_ → `reaction`.
+> _"That was the best race of the decade."_ → `hot_take`.
 
 A post can be heated and still be `hot_take` if it is making a general claim.
 

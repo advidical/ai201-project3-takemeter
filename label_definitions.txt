@@ -5,6 +5,15 @@
 #
 # Delete the examples below and put yours in.
 
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+help_request: asks for help setting up, building, learning, fixing, or deciding something
+for the writer's own project or channel (content creation, task automation,
+or something physical like a shelf for books, figures/plushies, or game cases/carts).
+analytical_inquiry: Brings specific, checkable evidence the writer has gathered (a date, a stat, 
+a quote, a named comparison, a cited work) and uses it to ask the community an open question about 
+the world: whether something is true, whether something changed, whether an observed pattern is real, 
+or why. 
+reaction: A response to a specific thing that happened to the writer or that they witnessed 
+(an event, result, milestone, change, or piece of news), whether it just happened or not.
+general_discussion: a post that doesn't fit `reaction`, `help_request`, or `analytical_inquiry`.
+Typically opens a conversation, asks for opinions, experiences, or
+recommendations for general interest, or shares news or updates. 

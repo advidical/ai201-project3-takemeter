@@ -44,10 +44,6 @@
 
 ---
 
-<!-- NOTE: This content goes in the README under the "## Label Taxonomy" section of the label spec. -->
-
-<!-- NOTE: This content goes in the README under the "## Label Taxonomy" section of the label spec. -->
-
 ## Label Taxonomy
 
 <!-- Each label: a one-sentence definition and two real examples from your
@@ -71,12 +67,13 @@ or something physical like a bookshelf or a pc build).
 This includes choices about the writer's own channel or content (which game
 to play next, what to upload, whether to cut intros) and problems with their
 own channel or account (claims, demonetization, appeals, growth). May include an
-equipment/spec list. Wants suggestions or
-direction the writer can act on, not to make a point: A question mark alone
-doesn't count. Recommendations count only when they serve the writer's own
-project; recommendations of things to watch or consume for general interest
-or inspiration are `general_discussion`. Evidence in the post (stats, policy
-text, screenshots) doesn't change the label if the ask is what to do.
+equipment/spec list.
+
+Wants suggestions or direction the writer can act on, not to make a point: A question mark alone
+doesn't count. The ask can be _implied_: the post describes a problem with
+the writer's own project and gives their own details (see Decision Tree step 1).
+Recommendations count only when they serve the writer's own project; recommendations of things to
+watch or consume for general interest or inspiration are `general_discussion`.
 
 </details>
 
@@ -144,7 +141,11 @@ text, screenshots) doesn't change the label if the ask is what to do.
 <details>
 <summary><b>Full definition</b></summary>
 
-A response to a specific thing that happened to the writer or that they witnessed (an event, result, milestone, change, or piece of news), whether it just happened or not. The writer's feelings about it are the point. A question tacked on at the end ("has anyone else noticed this?") doesn't disqualify it. It can also be a response to the writer's own accumulated experience (an ongoing struggle or a run of results over days, months, or years) when all four of these hold: it is the writer's own situation, not a claim about creators or the world; what's left after the feeling sentences are removed is a status report (events, numbers, history) with no advice, lesson, or standalone question; the only ask, if any, is for support or a "me too" ("have any of you felt this way?", "how did you keep going?"), not for an action, technique, tool, or fix; and the feelings respond to what has already happened, not to a worry about the future. Habits, trends, and general opinions about creators or the world, with no personal event or record behind them, don't count. Lessons or retrospectives offered to others, and recruitment or survey posts, don't count either, even when emotional. If the post still stands as a question about the world or a topic after the feeling sentences are removed, it's `general_discussion` instead.
+A response to a specific thing that happened to the writer or that they witnessed (an event, result, milestone, change, or piece of news), whether it just happened or not. The writer's feelings about it are the point. A passing exclamation or parenthetical in an announcement or status update doesn't make a post a reaction; the feelings must carry at least a full sentence of the post. A question tacked on at the end ("has anyone else noticed this?") doesn't disqualify it.
+
+It can also be a response to the writer's own accumulated experience (an ongoing struggle or a run of results over days, months, or years) when all four of these hold: it is the writer's own situation, not a claim about creators or the world; what's left after the feeling sentences are removed is a status report (events, numbers, history) with no advice, lesson, or standalone question; the only ask, if any, is for support or a "me too" ("have any of you felt this way?", "how did you keep going?"), not for an action, technique, tool, or fix; and the feelings respond to what has already happened, not to a worry about the future.
+
+Habits, trends, and general opinions about creators or the world, with no personal event or record behind them, don't count. Lessons or retrospectives offered to others, and recruitment or survey posts, don't count either, even when emotional. If the post still stands as a question about the world or a topic after the feeling sentences are removed, it's `general_discussion` instead.
 
 </details>
 
@@ -206,15 +207,19 @@ A response to a specific thing that happened to the writer or that they witnesse
 A post that opens a conversation or asks the community something, without being
 centered on the writer's own project ask (`help_request`) or on the writer's own
 experience, a specific event or an accumulated stretch of it, plus their feelings
-about it (`reaction`). This includes:
-asking for opinions, experiences, or recommendations for general interest, or
-starting a conversation about something that interests the writer; open
-questions about how something works, whether something is true or has changed,
-or why, with or without evidence the writer gathered (a date, a stat, a quote, a
-named comparison, a cited work); news or updates; and requests to recruit
-collaborators or study participants for the writer's project. Evidence in the
-post doesn't change the label. Feelings may be visible, but if they aren't the
-point of the post, it stays here.
+about it (`reaction`).
+
+This includes:
+
+- asking for opinions, experiences, or recommendations for general interest, or
+  starting a conversation about something that interests the writer;
+- open questions about how something works, whether something is true or has changed,
+  or why, with or without evidence the writer gathered (a date, a stat, a quote, a
+  named comparison, a cited work);
+- news or updates; and
+- requests to recruit collaborators or study participants for the writer's project.
+
+Feelings may be visible, but if they aren't the point of the post, it stays here.
 
 </details>
 
@@ -278,38 +283,88 @@ point of the post, it stays here.
 
 ### Decision Tree
 
-Judge by the literal ask, not the writer's motivation, the presence of
-evidence, or the feelings you'd expect behind the post. Stop at the first yes.
+Judge by the ask (the literal one, or an implied one when no literal ask exists),
+not the writer's motivation, the presence of evidence, or the feelings you'd expect
+behind the post. Stop at the first yes.
 
-1. **Is the literal ask "what should I do, use, say, or choose" for the
+1. **Is the ask, literal or implied, "what should I do, use, say, or choose" for the
    writer's own project, channel, or account?** → `help_request`
-   - Triggers only on the literal question. If the answer is a fact
+   - Use the literal question when there is one. If the answer is a fact
      about the world ("which help page is correct?"), it doesn't count even
-     if the writer has a project reason for asking.
+     if the writer has a project reason for asking. A literal ask always wins
+     over an implied one. A support ask or self-directed question ("Am I doing
+     something wrong?") is not a literal ask (see "Non-soliciting questions"
+     under edge cases).
+   - **Implied ask:** when the post contains no literal ask (no question or
+     request addressed to readers), it can still be a `help_request`. Count an
+     implied ask only if all three hold:
+     1. **Own obstacle:** the post reports a problem, failure, or blocker with
+        the writer's own project, channel, account, or setup (not with the world
+        or a platform in general).
+     2. **Own details:** it gives concrete details of the writer's situation a
+        reader could act on: what they use or did (setup, settings, steps they
+        tried) or their numbers.
+     3. **Reply test:** the most natural reply is something for the writer to do,
+        try, change, or fix (a diagnosis, setting, tool, or next step), not
+        agreement ("same here"), encouragement, or a fact or opinion about the world.
+
+     Optional supporting signals: "I tried X and Y but it
+     still…", "I'm pretty sure I did it right, but…", or a description of the
+     result they expected against the one they got.
+
+     It is **not** an implied ask when:
+     - the post is feelings or a complaint with no details of the writer's own;
+     - it only wishes for support or a "me too", or its only questions are
+       support asks or self-directed questions (see "Non-soliciting questions"
+       under edge cases);
+     - it reports a result with nothing to act on (a milestone, a stat); or
+     - the writer says they aren't looking for advice ("just need to vent").
+
+     If you can't fill in all three parts, there is no implied ask. Mark a label
+     that rests on an implied ask `Medium` confidence unless all three parts are
+     clearly met.
+
    - A general preference poll doesn't trigger it either, UNLESS the post frames it
-     as the writer's own decision ("what should I do?" vs "what are your thoughts about this?")
-     For the poll to be framed as writer's decision, it must state their current approach and a
-     problem with it (e.g. "I upload at noon and views are low, what works for you?"). A poll with no
-     stated problem or own-channel context ("what do you all prefer?") stays
-     `general_discussion`.
-   - Evidence in the post doesn't change this.
+     as the writer's own decision ("what should I do?"). To be framed as writer's decision,
+     post must state writer's current approach and a problem with it (e.g. "I upload at noon
+     and views are low, what works for you?"). A poll with no stated problem or own-channel context
+     ("what do you all prefer?") stays `general_discussion`.
 
-     **Edge cases to consider**:
-     - A question about how to categorize or frame the writer's own content (does this game fit my series, should this go in a playlist) counts as a decision about their own channel, even if stakes are low or says they'll proceed either way. It is `general_discussion` only if the ask is about the topic in general with no tie to the writer's own content.
-     - A support-only ask ("have any of you felt this way?", "how did you keep going or find motivation?") with no request for an action, technique, tool, or fix doesn't trigger this step. Any ask for something to do, try, use, or fix DOES ("is there a trick?", "any general advice?").
-     - A request to recruit a collaborator, partner, or participant for the
-       writer's project (rather than asking for advice, suggestions, or
-       direction) doesn't trigger this step: falls through to `general_discussion`
-       unless a later step matches. This includes requests to take part in a
-       survey or study.
+   - A request to recruit a collaborator, partner, or participant for the
+     writer's project (rather than asking for advice, suggestions, or
+     direction) doesn't trigger this step: falls through to `general_discussion`
+     unless a later step matches. This includes requests to take part in a
+     survey or study. If the post's main ask is that readers take part (play,
+     stream, join, test) and any feedback is part of that exchange, it's still
+     recruitment. If the main ask is feedback or critique on the writer's own
+     work, it's `help_request`.
 
-     NOTE: **DO NOT** run the strip test until this step has said no.
+   **Edge cases to consider**:
+   - A question about how to categorize or frame the writer's own content (does this game fit my series, should this go in a playlist) counts as a decision about their own channel, even if stakes are low or says they'll proceed either way. It is `general_discussion` only if the ask is about the topic in general with no tie to the writer's own content.
+   - **Non-soliciting questions.** A question makes the post a `help_request`
+     only if it solicits something from readers other than agreement: advice,
+     suggestions, tips, steps, or an answer about what to do, use, or choose.
+     Two kinds of question don't:
+     - **Support asks**, addressed to readers, that want solidarity or shared
+       experience ("have any of you felt this way?", "how did you keep going or
+       find motivation?", "has anyone had similar experiences and how did they
+       move forward?").
+     - **Self-directed questions** about the writer's own situation or feelings
+       ("Am I doing something wrong?", "What has changed?", "Am I going mad?",
+       "Do I suck?").
+
+     Either kind counts like a me-too and doesn't trigger this step on its own.
+     It becomes a `help_request` only if the post also contains a solicitation
+     ("any advice?", "what should I do?", "how do I fix this?", "is there a
+     trick?"). The amount of detail the writer gives doesn't change the label; it
+     only affects confidence. Flair (e.g. "Advice") is not evidence of an ask.
+
+NOTE: **DO NOT** run the strip test until this step has said no.
 
 2. **Is the post centered on the writer's own experience that has already
-   happened, plus their feelings about it?** → `reaction`.
-
-   That experience is either (a) a specific thing that happened (an event, result, milestone,
-   or change), or (b) an accumulated stretch of experience (an ongoing struggle or a
+   happened, plus their feelings about it?** → `reaction`. That experience is
+   either (a) a specific thing that happened (an event, result, milestone, or
+   change), or (b) an accumulated stretch of experience (an ongoing struggle or a
    run of results over days, months, or years).
 
    For (b), all four must hold:
@@ -328,15 +383,12 @@ evidence, or the feelings you'd expect behind the post. Stop at the first yes.
    posts.
 
    Run the **Strip test**: delete the feeling sentences/words and read what's left.
-   - If what's left is a bare event, or a question that only asks others to
+   - If what's left is a bare event or data, or a question that only asks others to
      confirm they had the same experience ("has this happened to anyone else?",
-     "did anyone else notice?"), it's this label. A reaction post will end up
-     looking incomplete, with no ask or call to action. As long as what's left
-     focuses on a specific event that personally affected the writer, it's this label.
+     "did anyone else notice?"), it's this label.
    - If what's left is a standalone question about the world or a topic (how
      something works, whether something is true, why) or any other conversation
      starter, it's `general_discussion`, even if the feelings were strong.
-     Evidence the writer brought doesn't change this.
 
 3. **None of the above** → `general_discussion`
 
@@ -362,8 +414,14 @@ writer's feelings and read what's left.
   offered to others is `general_discussion` even though it is personal.
 - If the post is a habit, trend, preference, or general opinion with no personal
   event or record behind it, or what's left is a standalone question about the
-  world or a topic, label it `general_discussion`, even if the tone is emotional
-  or the writer brought evidence.
+  world or a topic, label it `general_discussion`, even if the tone is emotional.
+- **Resolved vs. still processing.**
+  - If the post presents a resolution to readers (what was done or learned) stated
+    as advice or reassurance addressed outward ("you/we", "just remember", a TLDR),
+    it's `general_discussion`, even when the event and feelings are personal.
+  - If the writer is still working through it (unresolved, uncertain, venting, hoping),
+    or is sharing good news with nothing addressed to readers, it's `reaction`.
+    A guess or a hope ("I guess we should just keep trying") is not a resolution.
 
 ### Other boundaries to keep in mind
 
@@ -371,11 +429,12 @@ writer's feelings and read what's left.
 
 **The decision rule I used every time:**
 
-Read the literal question and ask what a good reply would be.
+Read the literal question (or, if there isn't one, the implied ask from step 1
+of the Decision Tree) and ask what a good reply would be.
 
 - If it's an action, choice, or piece of feedback for the writer's own project
   or channel ("should I dispute it?", "which style should I commit to?",
-  "is my intro too long?"): it's `help_request`, even with evidence in the post.
+  "is my intro too long?"): it's `help_request`.
 - If it's an opinion, recommendation, or fact about the world or a topic
   ("which help page is correct?", "what are your favorite horror games?"): it's
   `general_discussion`, even when the writer has a project reason for asking.
@@ -384,13 +443,14 @@ Read the literal question and ask what a good reply would be.
 
 Do these in order for every post, before judging tone.
 
-1. **Write down the literal ask.** Quote the sentence that is actually asking for something. A "just wanted to vent" line or a title can be a decoy; the real ask can be buried mid-post.
+1. **Write down the literal ask.** Quote the sentence that is actually asking for something. A "just wanted to vent" line or a title can be a decoy; the real ask can be buried mid-post. If there is no literal ask, write down the implied ask instead: the writer's own obstacle, their own details, and the natural reply (Decision Tree step 1). If you can't fill in all three, there is no implied ask.
 2. **Write down what the question is about.** Is it about the writer's own project, a question about the world or a topic, or only a request for others to confirm they had the same experience?
 3. **Write down whether a specific event happened** to or around the writer, or whether the post describes a stretch of the writer's own experience that has already happened (not a worry about the future). Then check whether the post is lessons or opinions offered to others instead.
-4. **Run the tie-breaker in order**, and stop at the first yes. Run step 1 before the strip test, every time.
+4. **Run the Decision Tree in order**, and stop at the first yes. Run step 1 before the strip test, every time.
 5. **Empathy flag:** If you notice yourself thinking "I'd feel that too," that's a cue to slow down and run the strip test, not a reason to label `reaction`.
-6. **Own-content test:** Would a plain yes or no reply tell the writer something to do with their own content (a series, a playlist, an upload)? If so, it's `help_request`, even when the stakes are low.
+6. **Own-content test:** Would a plain yes or no reply tell the writer something to do with their own content (a series, a playlist, an upload)? If so, it's `help_request`, even when the stakes are low, unless the answer is a fact about the world (a rule, policy, or how a platform works).
 7. **Mark low-confidence labels** where two steps both felt right. Those posts are the ones that tell you a definition needs tightening.
+8. **Wanting a channel isn't a project ask.** asking about setting up or revive a channel but doesn't state a problem or share any setup details (a plan, equipment, a current approach) is not `help_request`. Question(s) about how the platform works or general good ideas stays `general_discussion`. You need a stated problem or concrete details to act on ("my channel has been dead for six months, should I restart it?").
 
 ---
 

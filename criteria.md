@@ -65,27 +65,51 @@ about 3x what a coin flipper would get (25% x 3 = 75%)
 
 ---
 
-## 2. Strict balance for all labels except general_discussion
+## 2. Minimum counts per label, with looser floors for the smaller labels
 
-At a minimum, there must be 50 posts for each of the non general_discussion labels.
-For general discussion, it can have as little as 30 posts
+The corpus has at least 200 posts, with no hard cap on its size or on any label.
+Minimum posts per label:
+
+- help_request: at least 50
+- promotion_outreach: at least 40 (about 15% of the corpus)
+- reaction: at least 25
+- general_discussion (last step of the decision tree): at least 30
+
+No label may exceed 70% of the corpus. My target for the finished dataset is 20% for
+promotion_outreach, but the 40-post minimum is what this criterion requires.
 
 **Why this target:**
-Focuses balance on my main 3 labels, as general_discussion is a fall back label
-for when a post doesn't neatly match the other 3. Since it's 200 posts total,
-I want to ensure that each non fall back label reps at minimum 25% of total corpus.
+The four labels do not occur equally on r/letsplay. help_request and general_discussion
+are the most common, promotion_outreach is next, and reaction is the rarest because
+people mostly post to ask something or to share something, and genuine
+feelings-centered posts are harder to find. So the smaller labels get lower floors.
+I would rather keep the
 
 ---
 
-## 3. Per label performance is looser for general_discussion
+## 3. Per label performance is looser for the smaller labels
 
-For every non-fall back label, I want to achieve a min of .7 F1 score, while allowing
-general_discussion (our fall back label) is allowed for a min of .55 F1 score.
+Target F1 on each label:
+
+- help_request: at least .70
+- general_discussion: at least .70
+- promotion_outreach: at least .60
+- reaction: at least .60
+
+I measure these as pooled F1 over repeated stratified k-fold cross-validation, not on
+a single test split, and report them with bootstrap confidence intervals. I also report
+the confusion matrix and F1 on top-level posts only, separate from megathread replies.
 
 **Why this target:**
-I want to specifically focus on getting the model working and being useful for
-id'ing posts that aren't part of the fallback category. Since general discussion is
-not much of a focus, I'm ok with general discussion having a worse f1 score.
+help_request and general_discussion are the two largest labels, so they have the most
+training data and the steadiest test metrics, and they get the full .70 bar.
+general_discussion is the last step of the decision tree, so it is not a throwaway
+class and is held to the same bar as help_request. promotion_outreach and reaction are
+smaller, and on a single 15% test split each would hold only about 7 to 8 posts, so one
+miss moves their F1 a lot. They get a looser .60 bar and are judged by pooled
+cross-validation. The reaction vs general_discussion boundary is also the hardest in
+the spec, which adds to reaction's noise. The top-level-only slice checks that
+replies, which are shorter and have no flair, are not carrying the scores.
 
 ---
 

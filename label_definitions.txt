@@ -7,4 +7,5 @@
 
 help_request: The writer asks what to do, use, or choose for their own project or channel, or asks for feedback on it.
 reaction: The writer responds, with feeling, to a specific thing that happened to them or that they witnessed.
+promotion_outreach: The writer asks readers to look at, play, join, or team up on something of their own: a channel, video, game, product, cause, or content partnership.
 general_discussion: The writer opens a conversation or asks the community an open question: opinions, recommendations, how or why something works, or a question backed by evidence they found.

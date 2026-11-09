@@ -44,6 +44,8 @@
 
 ---
 
+<!-- NOTE: This content goes in the README under the "## Label Taxonomy" section of the label spec. -->
+
 ## Label Taxonomy
 
 <!-- Each label: a one-sentence definition and two real examples from your
@@ -145,7 +147,7 @@ A response to a specific thing that happened to the writer or that they witnesse
 
 It can also be a response to the writer's own accumulated experience (an ongoing struggle or a run of results over days, months, or years) when all four of these hold: it is the writer's own situation, not a claim about creators or the world; what's left after the feeling sentences are removed is a status report (events, numbers, history) with no advice, lesson, or standalone question; the only ask, if any, is for support or a "me too" ("have any of you felt this way?", "how did you keep going?"), not for an action, technique, tool, or fix; and the feelings respond to what has already happened, not to a worry about the future.
 
-Habits, trends, and general opinions about creators or the world, with no personal event or record behind them, don't count. Lessons or retrospectives offered to others, and recruitment or survey posts, don't count either, even when emotional. If the post still stands as a question about the world or a topic after the feeling sentences are removed, it's `general_discussion` instead.
+Habits, trends, and general opinions about creators or the world, with no personal event or record behind them, don't count. Lessons or retrospectives offered to others, and outreach or survey posts, don't count either, even when emotional. If the post still stands as a question about the world or a topic after the feeling sentences are removed, it's `general_discussion` instead.
 
 </details>
 
@@ -197,41 +199,43 @@ Habits, trends, and general opinions about creators or the world, with no person
 >
 > Additionally, my channel has 2191 sub 121,000 Watch hours and 1,643,856 views in the course of 5 years and honestly feel like I should just get a second job, since finance is getting tough.
 
-#### `general_discussion`
+#### `promotion_outreach`
 
-**Definition:** The writer opens a conversation or asks the community an open question: opinions, recommendations, how or why something works, or a question backed by evidence they found.
+**Definition:** The writer asks readers to look at, play, join, or team up on something of their own: a channel, video, game, product, cause, or content partnership.
 
 <details>
 <summary><b>Full definition</b></summary>
 
-A post that opens a conversation or asks the community something, without being
-centered on the writer's own project ask (`help_request`) or on the writer's own
-experience, a specific event or an accumulated stretch of it, plus their feelings
-about it (`reaction`).
+A post whose main ask is that readers do something with the writer's own thing: watch or
+follow their channel or video, play or stream their game or demo, take part in their project
+or cause, or team up with them (collab partners, content duos, friends to make content with).
+This includes megathread replies that share the writer's own video, series, game, or demo, and
+friend- or community-seeking posts where the writer wants readers to get in touch.
 
-This includes:
+It is **not** this label when:
 
-- asking for opinions, experiences, or recommendations for general interest, or
-  starting a conversation about something that interests the writer;
-- open questions about how something works, whether something is true or has changed,
-  or why, with or without evidence the writer gathered (a date, a stat, a quote, a
-  named comparison, a cited work);
-- news or updates; and
-- requests to recruit collaborators or study participants for the writer's project.
+- the main ask is feedback or critique on the writer's own work (`help_request`), even when
+  the post links the work;
+- it recruits survey or study participants, or asks market-research questions as someone
+  building a product (`general_discussion`);
+- a link, plug, or sign-off ("check me out on YT") is passing, and the post stands on
+  something else: feelings about an event or milestone (`reaction`), or a question, lesson,
+  or opinion (`general_discussion`);
+- it is a status update that mainly discusses the writer's recent project or asks what
+  other posters are up to (`general_discussion`);
+- it recommends or shouts out someone else's channel or game;
+- it is a moderator's own megathread post; or
+- the only evidence is flair (a "Collab" flair is not an ask).
 
-Feelings may be visible, but if they aren't the point of the post, it stays here.
+**Plug test:** for a post with a link or a "check it out" line, delete the sentences that
+point readers to the writer's thing. If what's left is feelings about what happened, it's
+`reaction`; if what's left is a question, lesson, opinion, or discussion of the writer's
+recent project, it's `general_discussion`; if what's left is mostly a list of the writer's own
+videos, links, or offers, it's this label.
 
 </details>
 
 **Example 1:**
-
-> ### Recommend me some Let's Play YouTubers that play Sci-Fi Action games or have played some before.
->
-> **tag: 💻 Video/Channel Recommendations (Weekend Only)**
->
-> I've been seeing horror game playthroughs a lot lately and, no shade to the 2 YouTubers whose videos I watch, I'm getting kinda sick of just seeing horror. I wanna see other genres like Sci-Fi Action or something. Y'all know anyone?
-
-**Example 2:**
 
 > ### Looking for someone to form a Minecraft content duo with!
 >
@@ -258,6 +262,75 @@ Feelings may be visible, but if they aren't the point of the post, it stays here
 > If you're interested, comment or DM me on discord with your age, timezone, what kind of content you want to make, and a little bit about yourself!
 >
 > Dc:[REDACTED]
+
+**Example 2:**
+
+> ### reply from a weekly megathread
+>
+> Hi everyone!
+>
+> I'm looking for content creators to cover Animal Falling, my upcoming chaotic multiplayer party game, coming to Steam on August 27th.
+>
+> Imagine Ultimate Chicken Horse mixed with Fall Guys. Every round, players add new traps to the course before racing to the finish, making each round even more chaotic than the last.
+>
+> Up to 6 players online
+>
+> 4 players local co-op
+>
+> 4 Steam keys provided to every creator so you can play with friends or your community.
+>
+> Interested? You can request a key here:
+>
+> Keymailer: [(keymailer) url link]
+>
+> Steam: [(steam) url link]
+
+#### `general_discussion`
+
+**Definition:** The writer opens a conversation or asks the community an open question: opinions, recommendations, how or why something works, or a question backed by evidence they found.
+
+<details>
+<summary><b>Full definition</b></summary>
+
+A post that opens a conversation or asks the community something, without being
+centered on the writer's own project ask (`help_request`) or on the writer's own
+experience, a specific event or an accumulated stretch of it, plus their feelings
+about it (`reaction`).
+
+This includes:
+
+- asking for opinions, experiences, or recommendations for general interest, or
+  starting a conversation about something that interests the writer;
+- open questions about how something works, whether something is true or has changed,
+  or why, with or without evidence the writer gathered (a date, a stat, a quote, a
+  named comparison, a cited work);
+- news or updates; and
+- requests to recruit survey or study participants, and market-research questions
+  from someone building a product, tool, or game.
+
+Posts whose main ask is that readers watch, play, follow, join, or team up with the
+writer are `promotion_outreach` instead. Feelings may be visible, but if they aren't
+the point of the post, it stays here.
+
+</details>
+
+**Example 1:**
+
+> ### Recommend me some Let's Play YouTubers that play Sci-Fi Action games or have played some before.
+>
+> **tag: 💻 Video/Channel Recommendations (Weekend Only)**
+>
+> I've been seeing horror game playthroughs a lot lately and, no shade to the 2 YouTubers whose videos I watch, I'm getting kinda sick of just seeing horror. I wanna see other genres like Sci-Fi Action or something. Y'all know anyone?
+
+**Example 2:**
+
+> ### Itch.io, is it safe?
+>
+> So typically when im searching the web for new games to play I always use steam since I know I can trust it not to have virus. But there are some good games that the big let's players are playing that are not on steam but are on itch.io .
+>
+> Does anyone have experience with viruses using this website for games, or can I trust downloading indi games from it?
+>
+> The game im looking to make a video on is dont seem with the fishes
 
 **Example 3: discussion with evidence**
 
@@ -330,14 +403,15 @@ behind the post. Stop at the first yes.
      and views are low, what works for you?"). A poll with no stated problem or own-channel context
      ("what do you all prefer?") stays `general_discussion`.
 
-   - A request to recruit a collaborator, partner, or participant for the
-     writer's project (rather than asking for advice, suggestions, or
-     direction) doesn't trigger this step: falls through to `general_discussion`
-     unless a later step matches. This includes requests to take part in a
-     survey or study. If the post's main ask is that readers take part (play,
-     stream, join, test) and any feedback is part of that exchange, it's still
-     recruitment. If the main ask is feedback or critique on the writer's own
-     work, it's `help_request`.
+   - A request to recruit a collaborator, partner, or tester for the writer's project
+     (rather than asking for advice, suggestions, or direction) doesn't trigger this
+     step. It falls through to step 3 (`promotion_outreach`), as does a post whose main
+     ask is that readers watch, play, follow, or join something of the writer's. A
+     request to take part in a survey or study, or a market-research question from
+     someone building a product, falls through to `general_discussion` instead. If the
+     post's main ask is that readers take part (play, stream, join, test) and any
+     feedback is part of that exchange, it's still outreach. If the main ask is feedback
+     or critique on the writer's own work, it's `help_request`.
 
    **Edge cases to consider**:
    - A question about how to categorize or frame the writer's own content (does this game fit my series, should this go in a playlist) counts as a decision about their own channel, even if stakes are low or says they'll proceed either way. It is `general_discussion` only if the ask is about the topic in general with no tie to the writer's own content.
@@ -379,7 +453,7 @@ NOTE: **DO NOT** run the strip test until this step has said no.
       about the future ("I'm afraid I'll be boring" is not this).
 
    Not this label, even if emotional: lessons or retrospectives offered to
-   others, general opinions about creators or trends, and recruitment or survey
+   others, general opinions about creators or trends, and outreach or survey
    posts.
 
    Run the **Strip test**: delete the feeling sentences/words and read what's left.
@@ -390,7 +464,25 @@ NOTE: **DO NOT** run the strip test until this step has said no.
      something works, whether something is true, why) or any other conversation
      starter, it's `general_discussion`, even if the feelings were strong.
 
-3. **None of the above** → `general_discussion`
+3. **Is the main ask that readers watch, play, follow, join, or team up with the writer?**
+   (their channel, video, series, game, demo, product, cause, or a collab or content
+   partnership) → `promotion_outreach`
+   - Includes friend- or community-seeking posts where the writer wants readers to get
+     in touch, and megathread replies that share the writer's own video, series, game,
+     or demo.
+   - Run the **Plug test** (see the label definition) on any post with a link or a
+     "check it out" line. A passing plug in a post that is really about feelings,
+     a question, or a lesson doesn't count, because steps 1 and 2 already caught
+     feelings-centered and ask-centered posts and the rest is a plug or sign-off.
+   - **Update-thread replies**: a reply that mainly discusses the writer's recent project,
+     or asks what other posters are up to, is `general_discussion`, even if it mentions a
+     video. A reply that mainly lists or links the writer's own videos, series, or offers,
+     with little discussion, is this label (`Medium`).
+   - Not this label: feedback requests (step 1), survey or study recruitment and
+     market research, shout-outs for someone else's channel, moderator megathread
+     posts, and anything where the only evidence is flair.
+
+4. **None of the above** → `general_discussion`
 
 ### The hardest boundary
 
@@ -418,7 +510,9 @@ writer's feelings and read what's left.
 - **Resolved vs. still processing.**
   - If the post presents a resolution to readers (what was done or learned) stated
     as advice or reassurance addressed outward ("you/we", "just remember", a TLDR),
-    it's `general_discussion`, even when the event and feelings are personal.
+    it's `general_discussion`, even when the event and feelings are personal. A one-line
+    sign-off to readers doesn't count; the outward advice or reassurance has to carry
+    the post, not just close it.
   - If the writer is still working through it (unresolved, uncertain, venting, hoping),
     or is sharing good news with nothing addressed to readers, it's `reaction`.
     A guess or a hope ("I guess we should just keep trying") is not a resolution.
@@ -439,6 +533,23 @@ of the Decision Tree) and ask what a good reply would be.
   ("which help page is correct?", "what are your favorite horror games?"): it's
   `general_discussion`, even when the writer has a project reason for asking.
 
+**Which labels:** `promotion_outreach` vs `general_discussion` vs `reaction`
+
+**The decision rule I used every time:**
+
+Ask what the writer wants readers to do. Then delete the plug (links, "check it out",
+"DM me") and see what is left.
+
+- If the main ask is that readers watch, play, follow, join, or team up with the writer,
+  it's `promotion_outreach`, even when the post is friendly or emotional.
+- If the post is mainly feelings about an event or milestone and the link is incidental, it's
+  `reaction`. If it is mainly a question, lesson, or opinion with a passing plug or
+  sign-off, it's `general_discussion`.
+- Update Monday replies sit on this boundary. A reply whose feelings carry full sentences
+  is `reaction`. A reply that mainly discusses the recent project or asks what others are
+  up to is `general_discussion`. A reply that mainly lists or links the writer's own
+  videos, series, or offers, with little discussion, is `promotion_outreach` (`Medium`).
+
 ### Annotator checklist
 
 Do these in order for every post, before judging tone.
@@ -446,11 +557,12 @@ Do these in order for every post, before judging tone.
 1. **Write down the literal ask.** Quote the sentence that is actually asking for something. A "just wanted to vent" line or a title can be a decoy; the real ask can be buried mid-post. If there is no literal ask, write down the implied ask instead: the writer's own obstacle, their own details, and the natural reply (Decision Tree step 1). If you can't fill in all three, there is no implied ask.
 2. **Write down what the question is about.** Is it about the writer's own project, a question about the world or a topic, or only a request for others to confirm they had the same experience?
 3. **Write down whether a specific event happened** to or around the writer, or whether the post describes a stretch of the writer's own experience that has already happened (not a worry about the future). Then check whether the post is lessons or opinions offered to others instead.
-4. **Run the Decision Tree in order**, and stop at the first yes. Run step 1 before the strip test, every time.
-5. **Empathy flag:** If you notice yourself thinking "I'd feel that too," that's a cue to slow down and run the strip test, not a reason to label `reaction`.
-6. **Own-content test:** Would a plain yes or no reply tell the writer something to do with their own content (a series, a playlist, an upload)? If so, it's `help_request`, even when the stakes are low, unless the answer is a fact about the world (a rule, policy, or how a platform works).
-7. **Mark low-confidence labels** where two steps both felt right. Those posts are the ones that tell you a definition needs tightening.
-8. **Wanting a channel isn't a project ask.** asking about setting up or revive a channel but doesn't state a problem or share any setup details (a plan, equipment, a current approach) is not `help_request`. Question(s) about how the platform works or general good ideas stays `general_discussion`. You need a stated problem or concrete details to act on ("my channel has been dead for six months, should I restart it?").
+4. **Own-content test:** Would a plain yes or no reply tell the writer something to do with their own content (a series, a playlist, an upload)? If so, it's `help_request`, even when the stakes are low, unless the answer is a fact about the world (a rule, policy, or how a platform works).
+5. **Wanting a channel isn't a project ask.** asking about setting up or revive a channel but doesn't state a problem or share any setup details (a plan, equipment, a current approach) is not `help_request`. Question(s) about how the platform works or general good ideas stays `general_discussion`. You need a stated problem or concrete details to act on ("my channel has been dead for six months, should I restart it?").
+6. **Outreach check:** Does the post want readers to watch, play, follow, join, or team up with the writer? Delete the plug and see what's left (Plug test). Feedback requests on the writer's own work stay `help_request`, and survey or market-research recruitment stays `general_discussion`.
+7. **Run the Decision Tree in order**, and stop at the first yes. Run step 1 before the strip test, every time.
+8. **Empathy flag:** If you notice yourself thinking "I'd feel that too," that's a cue to slow down and run the strip test, not a reason to label `reaction`.
+9. **Mark low-confidence labels** where two steps both felt right. Those posts are the ones that tell you a definition needs tightening.
 
 ---
 

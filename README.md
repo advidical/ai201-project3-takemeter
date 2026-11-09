@@ -590,61 +590,81 @@ by using clear rules centered around focusing on the 'literal ask' of the post, 
 fit them into one label with way less difficulty.
 
 With that out of the way, I then proceeded to gather 20 posts cold first (referencing the clear rules
-and boundaries I had via claude's assistance).
+and boundaries I had via claude's assistance). Then did the long process of collecting posts in batches,
+making adjustments to the spec and such as edge cases popped up. Then eventually I stoned around 260-270 posts
 
 **Counts per label:**
 
-| Label     | Count | Share |
-| --------- | ----- | ----- |
-|           |       |       |
-|           |       |       |
-|           |       |       |
-| **Total** |       | 100%  |
+| Label              | Count | Share |
+| ------------------ | ----- | ----- |
+| help_request       | 87    | 32.5% |
+| general_discussion | 79    | 29.5% |
+| reaction           | 55    | 20.5% |
+| promotion_outreach | 47    | 17.5% |
+| **Total**          | 268   | 100%  |
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
-
 **1.**
 
-> _The post:_
+> _The post:_ "Any other non-native English speakers keep feeling cringe at their speech?" The
+> writer says they are improving on mic but their first solo playthrough "is still so cringe
+> to me!", then ends with "I think the best thing we can do is just keep making more videos…"
 >
-> _Could have been:_
+> _Could have been:_ reaction or general_discussion. The last line is advice addressed to
+> readers ("we"), which my spec sends to general_discussion as a resolution.
 >
-> _I chose, because:_
+> _I chose, because:_ reaction. The writer is still working through the feeling, and the closing
+> line is a guess about what helps, not a resolution. A guess or a hope doesn't count as resolved
+> in my spec.
 
 **2.**
 
-> _The post:_
+> _The post:_ "Anyone else's youtube impressions/channel tank in 2026?" The writer describes their
+> channel dropping from about 1k impressions per video to under 50, says it bothers them but
+> doesn't discourage them, and shares analytics charts.
 >
-> _Could have been:_
+> _Could have been:_ reaction or help_request. It's about the writer's own channel and has a
+> question in the title.
 >
-> _I chose, because:_
+> _I chose, because:_ reaction. The question is a "me too" support ask, not a request for
+> what to do. The body is feelings about an ongoing experience, and the writer never asks for
+> advice. A question that only asks for shared experience doesn't trigger help_request in my spec.
 
 **3.**
 
-> _The post:_
+> _The post:_ "Sometimes you have to love the haters!" The writer tells the story of rude comments
+> on their videos and how they replied calmly, and ends with "Just remember to always be calm in
+> the face of rudeness and mean people…"
 >
-> _Could have been:_
+> _Could have been:_ reaction or general_discussion. It is a personal experience with clear
+> feelings.
 >
-> _I chose, because:_
+> _I chose, because:_ general_discussion. The post resolves into advice addressed to readers
+> ("just remember"), and my spec sends outward advice that carries the post to
+> general_discussion, even when the story is personal.
 
 ---
 
 ## The Training Run
 
-<!-- Your starting model, your settings, and anything you changed and why. -->
+**Base model:** DistilBERT (FILL IN: exact checkpoint, e.g. distilbert-base-uncased)
 
-**Base model:**
+**Settings:** FILL IN: epochs, learning rate, batch size, seed
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Anything I changed from the defaults, and why:** FILL IN
 
-**Anything I changed from the defaults, and why:**
+**Split sizes:** stratified 70/15/15 on 268 posts: train 186, val 41, test 41.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+| Split | help_request | general_discussion | reaction | promotion_outreach |
+| ----- | ------------ | ------------------ | -------- | ------------------ |
+| train | 60           | 55                 | 38       | 33                 |
+| val   | 14           | 12                 | 8        | 7                  |
+| test  | 13           | 12                 | 9        | 7                  |
+
+promotion_outreach has only 7 posts in the test split, below the 8 I use as a threshold, so
+its F1 will move a lot between seeds. The label is thin on purpose for this run, and I plan
+to add about 10 more posts later.
 
 ---
 
@@ -659,17 +679,21 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- _What I asked for:_
-- _What came back:_
-- _What I changed:_
+- _What I asked for:_ Help with making the spec sheet for label definitions and make adjustments when we found edge cases
+  or wanted to adjust the labels
+- _What came back:_ label_spec.md, which contains the content I used to fill out the label taxonomy section above
+- _What I changed:_ made slight adjustments in terms of presentation to make it more readable for myself
 
 **Moment 2**
 
-- _What I asked for:_
-- _What came back:_
-- _What I changed:_
+- _What I asked for:_ Help with making the spreadsheet used for the labels.csv dataset, using AI pre-labeling for most posts
+  to automate that aspect, while still using 20 cold rows that I had examined and never asked claude to cross examine
+- _What came back:_ labels.csv spreadhsheet with 5 columns: text, label, confidence, note, has_media
+- _What I changed:_ changed a couple of labels based on my own interpretation & catching where the AI was wrong or missing insight
 
 **Pre-labelling disclosure:**
+Used Claude to pre label most posts, with a couple I made a guess before letting claude create their assessment.
+Did it for automation purposes, while making sure to keep in mind balance & other factors via batch sends and evaluation
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 

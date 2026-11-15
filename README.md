@@ -665,20 +665,16 @@ making adjustments to the spec and such as edge cases popped up. Then eventually
 
 ## The Training Run
 
-**Base model:** DistilBERT (FILL IN: exact checkpoint, e.g. distilbert-base-uncased)
+**Base model:** DistilBERT (distilbert-base-uncased)
 
-**Settings:** FILL IN: epochs, learning rate, batch size, seed
+**Settings:** FILL IN: epochs: 6, learning rate:3e-5, batch size: 8, max_length: 384, seed: 42
 
-**Anything I changed from the defaults, and why:** FILL IN
+**Anything I changed from the defaults, and why:** Changed learning rate, epochs, & max_length (token size) because
+the default settings would not be sufficient due to the token size of the posts being way larger than 128,
+and it would either overfit or under train against the dataset. Chose these metrics via claude.
 
 **Split sizes:** stratified 70/15/15 on 287 posts: train 200, val 43, test 44
 
-                    train  val  test
-
-label  
-help_request 62 13 14
-reaction 39 9 8
-promotion_outreach 44 9 10
 general_discussion 55 12 12
 
 | Split | help_request | general_discussion | reaction | promotion_outreach |

@@ -715,6 +715,14 @@ I added more later for resubmission & unit 6 to reflect r/letsplay better & not 
 Used Claude to pre label most posts, with a couple I made a guess before letting claude create their assessment.
 Did it for automation purposes, while making sure to keep in mind balance & other factors via batch sends and evaluation
 
+# Stretch Feature: 4th label
+
+**Original 3 labels**: help_request, reaction, general_discussion
+**New 4th label**: promotion_outreach
+**why I added the new label**: Added it because I noticed there were alot of posts that
+were specifically geared towards promoting a project and/or doing outreach for collaboration/feedback.
+So I created a new label that encompasses these types of posts.
+
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
      Don't fill these in during unit 5.

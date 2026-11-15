@@ -42,9 +42,20 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
----
+     My community is the subreddit r/letsplay, which is dedicated towards people who
+     watch or create video game guides & playthroughs on youtube and via livestreams.
+     This includes people who are indie game developers looking for people to make videos
+     on their new game for promotion, & people looking for collab partners for videos.
 
-<!-- NOTE: This content goes in the README under the "## Label Taxonomy" section of the label spec. -->
+     My classifier sorts posts into 4 different labels: help_request, reaction, promotion_outreach,
+     & general_discussion. Help request is for posts asking for advice or help with their project or
+     channel related to video games/yt channel/livestreams; reaction are posts where users react to
+     milestones or immediate events relating to their letsplay journey(consumer or creator);
+     promotion_outreach for posts promoting a videogame, tool, channel, or other video game related
+     project that the user is building, as well as outreach requests for collaboration or feedback
+     into their project (requests for collab videos or asking for feedback on games)
+
+---
 
 ## Label Taxonomy
 
@@ -595,54 +606,60 @@ making adjustments to the spec and such as edge cases popped up. Then eventually
 
 **Counts per label:**
 
-| Label              | Count | Share |
-| ------------------ | ----- | ----- |
-| help_request       | 87    | 32.5% |
-| general_discussion | 79    | 29.5% |
-| reaction           | 55    | 20.5% |
-| promotion_outreach | 47    | 17.5% |
-| **Total**          | 268   | 100%  |
+### Label Distribution
+
+| Label                |    Rows | Proportion |
+| -------------------- | ------: | ---------: |
+| `help_request`       |      89 |      31.1% |
+| `general_discussion` |      79 |      27.6% |
+| `promotion_outreach` |      62 |      21.7% |
+| `reaction`           |      56 |      19.6% |
+| **Total**            | **286** | **100.0%** |
 
 **Three hard cases**
 
 **1.**
 
-> _The post:_ "Any other non-native English speakers keep feeling cringe at their speech?" The
-> writer says they are improving on mic but their first solo playthrough "is still so cringe
-> to me!", then ends with "I think the best thing we can do is just keep making more videos…"
+> _The post:_ "Streamers with editors: how do you hand off clips? (not selling, just asking)"
+> The writer, "a small dev building something for streamer teams," asks readers how moments get
+> from the stream to the editor, what breaks, and whether "a shared board where mods mark moments
+> live" would help. They add that "honest 'my setup is fine' answers are just as useful."
 >
-> _Could have been:_ reaction or general_discussion. The last line is advice addressed to
-> readers ("we"), which my spec sends to general_discussion as a resolution.
+> _Could have been:_ help_request or general_discussion. It is a list of questions from someone
+> with a project (a tool they are building), so it reads like asking readers for input on their
+> own work.
 >
-> _I chose, because:_ reaction. The writer is still working through the feeling, and the closing
-> line is a guess about what helps, not a resolution. A guess or a hope doesn't count as resolved
-> in my spec.
+> _I chose, because:_ general_discussion. The questions are about how streamers work, not about
+> what the writer should do next, and my spec sends survey and market-research questions from a
+> builder to general_discussion. "Not selling, just asking" also rules out promotion_outreach.
 
 **2.**
 
-> _The post:_ "Anyone else's youtube impressions/channel tank in 2026?" The writer describes their
-> channel dropping from about 1k impressions per video to under 50, says it bothers them but
-> doesn't discourage them, and shares analytics charts.
+> _The post:_ "Sometimes you have to love the haters!" The writer describes comments telling
+> them to rename their channel or "do face cams or vtuber stuff," says they replied "Hey thanks
+> for watching my videos," and ends with "Just remember to always be calm in the face of
+> rudeness and mean people as that is way more powerful than anything else."
 >
-> _Could have been:_ reaction or help_request. It's about the writer's own channel and has a
-> question in the title.
+> _Could have been:_ reaction or general_discussion. The post is built on a personal event with
+> feelings in it (the comments, the laughing, "does not bother me").
 >
-> _I chose, because:_ reaction. The question is a "me too" support ask, not a request for
-> what to do. The body is feelings about an ongoing experience, and the writer never asks for
-> advice. A question that only asks for shared experience doesn't trigger help_request in my spec.
+> _I chose, because:_ general_discussion. The event is told to teach a lesson, and the closing
+> line is advice to readers. My spec says lessons offered to others don't count as a reaction,
+> even when emotional, so the post is a retrospective with a takeaway.
 
 **3.**
 
-> _The post:_ "Sometimes you have to love the haters!" The writer tells the story of rude comments
-> on their videos and how they replied calmly, and ends with "Just remember to always be calm in
-> the face of rudeness and mean people…"
+> _The post:_ "Chill Background music for free" The writer asks where to find royalty-free
+> background music, whether you "can trust that the royalty free youtube stuff is not stolen from
+> somebody else," and says they like the style of one artist.
 >
-> _Could have been:_ reaction or general_discussion. It is a personal experience with clear
-> feelings.
+> _Could have been:_ help_request or promotion_outreach. The title reads like an offer of free
+> music, and my other music posts ("feel free to use in your gaming videos") are
+> promotion_outreach.
 >
-> _I chose, because:_ general_discussion. The post resolves into advice addressed to readers
-> ("just remember"), and my spec sends outward advice that carries the post to
-> general_discussion, even when the story is personal.
+> _I chose, because:_ help_request. The body asks readers for pointers to music for the writer's
+> own video, and nothing in it offers or promotes anything. In my spec, the ask in the body
+> decides the label, and the title does not.
 
 ---
 
@@ -654,17 +671,24 @@ making adjustments to the spec and such as edge cases popped up. Then eventually
 
 **Anything I changed from the defaults, and why:** FILL IN
 
-**Split sizes:** stratified 70/15/15 on 268 posts: train 186, val 41, test 41.
+**Split sizes:** stratified 70/15/15 on 287 posts: train 200, val 43, test 44
+
+                    train  val  test
+
+label  
+help_request 62 13 14
+reaction 39 9 8
+promotion_outreach 44 9 10
+general_discussion 55 12 12
 
 | Split | help_request | general_discussion | reaction | promotion_outreach |
 | ----- | ------------ | ------------------ | -------- | ------------------ |
-| train | 60           | 55                 | 38       | 33                 |
-| val   | 14           | 12                 | 8        | 7                  |
-| test  | 13           | 12                 | 9        | 7                  |
+| train | 62           | 55                 | 39       | 44                 |
+| val   | 13           | 12                 | 9        | 9                  |
+| test  | 14           | 12                 | 8        | 10                 |
 
-promotion_outreach has only 7 posts in the test split, below the 8 I use as a threshold, so
-its F1 will move a lot between seeds. The label is thin on purpose for this run, and I plan
-to add about 10 more posts later.
+NOTE: promotion_outreach originally had only 7 posts in the test split for original submission:
+I added more later for resubmission & unit 6 to reflect r/letsplay better & not have any thin labels
 
 ---
 

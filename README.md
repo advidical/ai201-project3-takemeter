@@ -667,7 +667,7 @@ making adjustments to the spec and such as edge cases popped up. Then eventually
 
 **Base model:** DistilBERT (distilbert-base-uncased)
 
-**Settings:** FILL IN: epochs: 6, learning rate:3e-5, batch size: 8, max_length: 384, seed: 42
+**Settings:** epochs: 6, learning rate:3e-5, batch size: 8, max_length: 384, seed: 42
 
 **Anything I changed from the defaults, and why:** Changed learning rate, epochs, & max_length (token size) because
 the default settings would not be sufficient due to the token size of the posts being way larger than 128,
@@ -735,22 +735,34 @@ So I created a new label that encompasses these types of posts.
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
-| Measure          | Baseline | Trained | Difference |
-| ---------------- | -------- | ------- | ---------- |
-| Overall accuracy |          |         |            |
-| Macro F1         |          |         |            |
-| F1 — `label_one` |          |         |            |
-| F1 — `label_two` |          |         |            |
+| Measure                   | Baseline | Trained | Difference |
+| ------------------------- | -------- | ------- | ---------- |
+| Overall accuracy          | 0.477    | 0.659   | +0.182     |
+| Macro F1                  | 0.482    | 0.659   | +0.177     |
+| F1 — `general_discussion` | 0.400    | 0.609   | +0.209     |
+| F1 — `help_request`       | 0.476    | 0.667   | +0.190     |
+| F1 — `promotion_outreach` | 0.533    | 0.737   | +0.204     |
+| F1 — `reaction`           | 0.519    | 0.625   | +0.106     |
 
 **What I predicted before I looked:**
 
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
 
+     I predicted that the model would do better on every label except help_request, where I thought
+     the baseline.py would probably do better to detect based on the one line definition. I do think
+     it may be worth a look to compare one line defintions versus the full line definition, and then
+     see if there's a way to incorporate my decision tree into the baseline.py for comparison.
+
 **What the gap actually means:**
 
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
+
+     Fine-tuning DID add something to the model! The difference was between 10%-20% improvement
+     per-label vs the baseline. If I have time, I will test with the full definitions & maybe
+     incorporate the decision tree itself: I predict with the full definition, the margin will shrink
+     and may even do better on at least one label vs fine tuning the model.
 
 ---
 
@@ -759,26 +771,58 @@ So I created a new label that encompasses these types of posts.
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-| --------- | ------ | ------- | ------ | --------- | ------- |
-| 1.        |        |         |        |           |         |
-| 2.        |        |         |        |           |         |
-| 3.        |        |         |        |           |         |
-| 4.        |        |         |        |           |         |
-| 5.        |        |         |        |           |         |
+| Measure                   | Seed 42 | Seed 7 | Seed 2024 | Spread |
+| ------------------------- | ------- | ------ | --------- | ------ |
+| Overall accuracy          | 0.659   | 0.727  | 0.705     | 0.068  |
+| Macro F1                  | 0.659   | 0.716  | 0.717     | 0.058  |
+| F1 — `help_request`       | 0.667   | 0.769  | 0.643     | 0.126  |
+| F1 — `reaction`           | 0.625   | 0.700  | 0.800     | 0.175  |
+| F1 — `promotion_outreach` | 0.737   | 0.870  | 0.818     | 0.133  |
+| F1 — `general_discussion` | 0.609   | 0.526  | 0.609     | 0.082  |
+
+| Criterion                                                              | Target                                                                      | Seed 42                                                 | Seed 7                                                  | Seed 2024                                               | Verdict                                                                           |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1. Model's overall accuracy 75%                                        | ≥ 0.75 accuracy on all three seeds                                          | 0.659 ✗                                                 | 0.727 ✗                                                 | 0.705 ✗                                                 | **Miss** (best seed is 2.3 points short)                                          |
+| 2. Minimum counts per label, with looser floors for the smaller labels | ≥ 200 posts; help ≥ 50, promo ≥ 40, react ≥ 25, discussion ≥ 30; none > 70% | 89 / 63 / 56 / 79 ✓                                     | 89 / 63 / 56 / 79 ✓                                     | 89 / 63 / 56 / 79 ✓                                     | **Pass** (287 posts, largest label 31%, promo 22%)                                |
+| 3. Per label performance is looser for thinner labels                  | F1 ≥ .70 for help/discussion, ≥ .60 for react/promote                       | help .667 ✗ · disc .609 ✗ · promo .737 ✓ · react .625 ✓ | help .769 ✓ · disc .526 ✗ · promo .870 ✓ · react .700 ✓ | help .643 ✗ · disc .609 ✗ · promo .818 ✓ · react .800 ✓ | **Miss** (discussion fails all 3 seeds, help fails 2; promo and react pass all 3) |
+| 4. Labels need to be very consistent                                   | Spread ≤ 0.05 (95% consistent) for every label except general_discussion    | — (judged by spread)                                    | — (judged by spread)                                    | — (judged by spread)                                    | **Miss** (spreads: help .126, react .175, promo .133)                             |
+| 5. Confidence means better results                                     | Most-sure third ≥ 5 points above least-sure third                           | .929 vs .429 (+50.0) ✓                                  | .857 vs .429 (+42.9) ✓                                  | .857 vs .643 (+21.4) ✓                                  | **Pass**                                                                          |
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |     |     |     |
-| ---------------- | --- | --- | --- |
-| \*\*\*\*         |     |     |     |
-| \*\*\*\*         |     |     |     |
-| \*\*\*\*         |     |     |     |
+--------------- SEED #42 Confusion Matrix -----------------------------------
+| true \ predicted | help_request | reaction | promotion_outreach | general_discussion |
+|---|---|---|---|---|
+| **help_request** | 10 | 2 | 1 | 1 |
+| **reaction** | 0 | 5 | 1 | 2 |
+| **promotion_outreach** | 2 | 0 | 7 | 1 |
+| **general_discussion** | 4 | 1 | 0 | 7 |
+
+--------------- SEED #7 Confusion Matrix -----------------------------------
+| true \ predicted | help_request | reaction | promotion_outreach | general_discussion |
+|---|---|---|---|---|
+| **help_request** | 10 | 1 | 1 | 2 |
+| **reaction** | 0 | 7 | 1 | 0 |
+| **promotion_outreach** | 0 | 0 | 10 | 0 |
+| **general_discussion** | 2 | 4 | 1 | 5 |
+
+--------------- SEED #2024 Confusion Matrix -----------------------------------
+| true \ predicted | help_request | reaction | promotion_outreach | general_discussion |
+|---|---|---|---|---|
+| **help_request** | 9 | 0 | 1 | 4 |
+| **reaction** | 2 | 6 | 0 | 0 |
+| **promotion_outreach** | 1 | 0 | 9 | 0 |
+| **general_discussion** | 2 | 1 | 2 | 7 |
 
 **My biggest off-diagonal number, and what it means:**
+Across the all 3 seeds, I determine the biggest off-diagonal number is the boundary between help_request &
+general_discussion. As for what it means: one seed it was lopsided, while the other it was considered relatively symmetric
+the last seed had a lopsided boundary between general discussion & reaction. To me, that indicates that the model is struggling
+to identify general discussion posts, and that sort of makes sense since I've noticed many of my hard cases were involving general discussion, and general discussion is meant to sort of be a fallback label for any post that isn't trying to ask for help, process feelings, or reach out to people for collaboration or mutual cooperation. For me, and from what claude said to me
+it seems the most appropriate would be to add more posts to general discussion that targets help request boundary & maybe reaction too: this is backed by the fact general discussion consistently got the worst f1 score.
 
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the

@@ -1,0 +1,260 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 44,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 44,
+    "accuracy": 0.4772727272727273,
+    "f1_macro": 0.482010582010582,
+    "per_label": {
+      "general_discussion": {
+        "precision": 0.38461538461538464,
+        "recall": 0.4166666666666667,
+        "f1": 0.4,
+        "support": 12
+      },
+      "help_request": {
+        "precision": 0.7142857142857143,
+        "recall": 0.35714285714285715,
+        "f1": 0.4761904761904762,
+        "support": 14
+      },
+      "promotion_outreach": {
+        "precision": 0.8,
+        "recall": 0.4,
+        "f1": 0.5333333333333333,
+        "support": 10
+      },
+      "reaction": {
+        "precision": 0.3684210526315789,
+        "recall": 0.875,
+        "f1": 0.5185185185185185,
+        "support": 8
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Into full-time content creation after leaving corporate, here's the reality nobody talks about [SEP] Left my corporate job 12 months ago to do content full-time. saved aggressively for 9 months before quitting, now running a gaming/commentary channel [SEP] currently at 8.1k youtube subs, 180k monthly views, making around $400-600/month from adsense + occasional sponsorships. not sustainable yet but growing [SEP] wanted to share the reality of this journey cause i see a lot of \"quit your job and follow your dreams\" posts that skip the hard parts [SEP] what worked: [SEP] niching down hard [SEP] started doing variety gaming (fps, rpg, whatever i felt like). growth was dead. 3 months in, barely 200 subs [SEP] switched to indie horror only. community is smaller but way more engaged. grew to 1k in next 4 months [SEP] lesson: smaller focused audience > large unfocused one [SEP] production quality mattered more than i admitted [SEP] first 3 months i used laptop webcam cause \"content matters more than gear\" [SEP] retention was shit. people would leave in first 20 seconds [SEP] month 4 i finally upgraded camera (got emeet c960 ) and basic lighting setup. retention jumped 30% [SEP] wasnt about looking \"professional\" - was about looking like i gave a shit [SEP] later upgraded to emeet pixy cause the ai tracking is useful for dynamic shots when i stand up or move around room. makes content feel less static [SEP] total gear investment: around $350 over 9 months (mic, camera, lighting, boom arm) [SEP] being brutally honest with analytics [SEP] every video that flopped, i studied why [SEP] thumbnail not clear at distance? [SEP] title too vague? [SEP] first 30 seconds boring? [SEP] pacing too slow? [SEP] most creators just upload and hope. you need to diagnose failures [SEP] what didnt work: [SEP] \"just be consistent\" advice is incomplete: [SEP] i uploaded 3x week for first 2 months. burned out, quality dropped, nothing grew [SEP] switched to 1 quality video per week. growth actually accelerated [SEP] consistency matters but only if quality is there. bad videos consistently = consistently bad channel [SEP] comparing to big creators: [SEP] spent way too much time watching markiplier and thinking \"i need to be like that\" [SEP] you're not competing with markiplier. you're competing with channels at your level [SEP] once i studied channels with 5k-20k subs instead of 5M subs, i learned way more applicable stuff [SEP] waiting for viral video: [SEP] had one video hit 50k views. thought \"this is it, channel will blow up now\" nope. those viewers came for that one video, not my channel. retention on other videos stayed same [SEP] virality is lottery. sustainable growth is systems [SEP] financial reality: [SEP] months 1-3: $0 [SEP] months 4-6: ~$100/month [SEP] months 7-9: $200-300/month [SEP] months 10-12: $400-600/month [SEP] living expenses: ~$2200/month (rent, food, utilities, health insurance) [SEP] deficit: ~$1600-1800/month coming from savings [SEP] at this rate i have about 8-10 more months before i need part-time work or channel needs to hit monetization harder [SEP] not sugar coating it, this is stressful [SEP] some days i question if i made huge mistake. watch my savings drain while making $500/month [SEP] but then i remember how miserable corporate job made me and im willing to bet on myself little longer [SEP] things that keep me going: [SEP] comments from people who genuinely enjoy content [SEP] month over month growth even if slow [SEP] waking up without sunday dread [SEP] building something thats mine [SEP] advice if youre thinking about this: [SEP] save 12+ months expenses minimum. i saved 9 months, wish i saved more [SEP] start building audience BEFORE you quit. i started from zero which was dumb [SEP] have backup plan. im looking at part-time remote work options as safety net [SEP] invest in basic production quality early. dont use \"content over gear\" as excuse for looking amateur [SEP] pick specific niche. variety content is death for small channels [SEP] study channels at your level not aspirational level [SEP] questions ill answer: [SEP] \"should i quit my job?\" not unless you have serious savings and have already built small audience [SEP] \"how much did you spend on gear?\" $350 total over 9 months [SEP] \"do you regret it?\" ask me in 6 months when savings run out lol [SEP] honestly though, no regrets yet. even if i have to get part-time job, ill keep building this.",
+      "gold": "general_discussion",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Looking for content duos / friend group for Minecraft or just games in general YouTube (Java/PC Gamers) [SEP] \ud83d\udc4a Collab [SEP] Hey! I'm looking for some people who'd genuinely want to become friends and make YouTube content together. I'm hoping to make a small to medium-sized group rather than just doing random one-off collabs. I feel like having a Small to medium even large-sized group would be nice, for games that need more people, but we could have a larger group depending on what we're playing! [SEP] I honestly don't mind but i would prefer to get enough people for medium or large! [SEP] Ideally I'm looking for people who are: [SEP] 1: 18+ [SEP] 2: Funny and talkative [SEP] 3: Comfortable with VC [SEP] 4: Chronically online like me [SEP] 5: Actually interested in creating things [SEP] 6: Into Minecraft and other games [SEP] 7: Not obsessed with subscribers/views/growth [SEP] 8: Looking for actual friends, not just someone to record with once and never talk to again [SEP] I have a very small YouTube channel myself, around 26/27 subs (I haven't posted that much recently but i will start eventually!) so you definitely don't need to be some huge creator. I'm more interested in finding people who are fun to hang out with and who genuinely want to make stuff together, or just play together! [SEP] Minecraft Java would probably be one of the main things, but I'm down for other games too since i'm not always in a minecraft mood of course! \"friendslop\" games would be awesome to play! For Minecraft, we could do normal Minecraft, challenges, modded stuff, SMP-type things, or just completely stupid ideas we come up with. [SEP] Also, I think it's best we don't immediately start making content. [SEP] I'm probably going to make a Discord server where everyone can talk, play games, VC, get to know each other, and become friends! I think it'd be better to actually become friends first and let the content happen naturally rather than forcing it. [SEP] I'm completely fine with people from anywhere, as long as you know how to speak English since that's the only language I know how to speak. I'm from the UK, but timezones don't really matter too much for me since I stay up pretty late anyway. [SEP] If you're interested, leave a comment or DM me! Let me know your Discord so I can add you, and then once we have a few people interested, I'll make a server!",
+      "gold": "promotion_outreach",
+      "predicted": "promotion_outreach"
+    },
+    {
+      "text": "I can\u2019t believe it [SEP] Just posting something for the fun of it. The two lets plays I\u2019ve been doing are coming to an end. In Ni No Kuni I just have to climb the Ivory Tower and fight The White Witch, and in Pokemon Renegade Platinum I am at The Elite 4. It\u2019s been such a journey with these two titles I\u2019m excited to beat them but also I\u2019ll miss making these two games into let\u2019s plays. All good things come to an end and I\u2019m excited to start my JRPG hiatus and make other gaming content for a little bit. Ocarina of Time Randomizer here I come.",
+      "gold": "reaction",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "My indie game, UpWakeNing - Gifting 15 free Steam Keys out to Content Creators! [SEP] Hello Content Creators! [SEP] My name is Dan and I recently released my first title, UpWakeNing, on Steam. I'd love to gift out 15 keys out to anybody on this subreddit. I'd like to clarify that it will be first come, first serve based on replies on this post and not from any DM's to comply with the rules on this subreddit. [SEP] Please leave a comment with your YouTube channel and I'll take it as you want a key :) [SEP] About the game: [SEP] UpWakeNing is a precise platformer that takes the player into a sleep paralysis world. You're stuck in a box and you need to wake up. There's only one way and that's up to the top. But be careful: For every successful jump, the higher the stakes increases because one misstep, and you might end up all the way down at the bottom again! [SEP] The games features subtitles in 11 different languages as well as a Steam Leaderboard, so I really do hope to see any of your names there in the near future! :) [SEP] The game is heavily inspired by Jump King and Getting Over It, so if you like this genre/kind of game, then I'd love for you to try my game out! [SEP] You can watch the trailer here: [SEP] [(youtube) url link] [SEP] You can read more about it on the Steam Store Page here: [(steam) url link] [SEP] I'll check this post later in the evening, so first come, first serve in the replies here and NOT dm's. I'll reply to the 15 first comments later and DM you the steam keys. [SEP] I hope to create some memorable, and potentially content for you all! [SEP] Until then, Stay safe!",
+      "gold": "promotion_outreach",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "Starting new series [SEP] 2 new series are being started on my channel and I am so excited. The moments from my last let\u2019s plays where amazing those final streams really were heart pounding legit Cynthia the champion of Sinnoh will [SEP] Always be my hardest boss fight XD sheesh. However I am now starting 2 brand new lets plays and I am just so excited. Has there ever been lets plays you were the most hyped for doing on your channel? What were these lets plays?",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "What's the best intro to a lets play video in your opinion? [SEP] I've been doing lets play videos for a couple of years, sometimes they're doing pretty well, sometimes not, and I'm thinking about what to improve [SEP] One of the thing I'm questioning is how to start a video, if it's a first episode of a series I usually just say a bit of info something like \"hi, I'm ____, this game is a story driven choices matter adventure from the creators of ___\" [SEP] I usually keep it under 30 seconds sometimes less, and if it's a regular episode, then much shorter than that, I just basically say hello and go right into the gameplay [SEP] I've tried editing \"previously on\" section, but it wasn't succesful at all [SEP] Could you please share what works best for you? And how did you find that out?",
+      "gold": "help_request",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "I want to start a youtube gaming channel, but i fear im too boring? [SEP] \ud83e\udd14 Advice [SEP] Ive always wanted to start a channel ever sense i was a kid, but im afraid im too boring or i wouldn't know what to say? if i were to start i would be starting from 0. [SEP] I believe im overthinking it still?",
+      "gold": "general_discussion",
+      "predicted": "help_request"
+    },
+    {
+      "text": "Can I get your guy's honest opinion? [SEP] I've been making content for a few months. Experimenting with different types of thumbnails and video editing and just scratching the surface on photoshop. It seems like even when I put a lot of time into my thumbnails and video editing It still seems to get overlooked or maybe that's just the algorithm. I made a thumbnail for a video that will be released later on for a Let's play. Thoughts, opinions? I won't be upset from the honesty.",
+      "gold": "help_request",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "A free surreal/musical indie game I made for my band [SEP] [(website) url link] [SEP] I don't think you've seen such project before. [SEP] At least go check out the page! [SEP] The game is about 8 minutes long. [SEP] You'll find a downloadable press kit.",
+      "gold": "promotion_outreach",
+      "predicted": "reaction"
+    },
+    {
+      "text": "So I'm a bit sad [SEP] So I'm a bit sad [SEP] I recently started making scripted videos. My first one got over 700 views, so it felt like a smart move to keep going with my plan. [SEP] But then my second video which was a bit longer but still short got almost nothing, only around 15 views. [SEP] I honestly think both thumbnails were good, and I put a lot of love into these videos. I'm still going to keep making them because I enjoy it, but I'm confused about why this happened. [SEP] Does anyone have advice or insight on what might have gone wrong, or how I can improve going forward? [SEP] DM if interested",
+      "gold": "help_request",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Anyone else been getting random spikes of viewers while Lets Play streaming? Usually I get 1-2 viewers Max [SEP] \ud83d\udde8\ufe0f Discussion [SEP] This is the second time I've had a viewership during a live stream, jump so high, but strange thing is they never comment. Then again the Youtube chat was bugged today. Are these most likely a random bot wave?",
+      "gold": "general_discussion",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Motion Sickness When Older? Especially Indie Horror Games [SEP] I used to be able to play any first person games and not get any motion sickness. Just hit 32 and I now get motion sickness with almost every (first person) indie Horror game. I don't get motion sickness with FPS games though. Mi-Side was fine too. [SEP] I tried changing the settings such as reducing mouse sensitivity, increasing POV, disabling head bobbing, playing in windowed mode, changing screen resolution,. etc - it does help a little but the motion sickness comes eventually (usually in 10-15 minutes). [SEP] It's sad and frustrating because I love watching people play Indie Horror games and wanted to do that for my gaming channel. I love that you don't need a huge company or a lot of money to create something you love or are passionate about. I love how silly and unsettling the horror games can be. [SEP] Sorry I guess I just wanted to rant a little because I don't really know who to talk to about this. If you have any suggestions or advice, I would love to hear it. Thank you for listening.",
+      "gold": "help_request",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Howdy all, I've just released Husbandry, a game about breeding animals. I'd love for you to play it! (Steam keys in comments)",
+      "gold": "promotion_outreach",
+      "predicted": "reaction"
+    },
+    {
+      "text": "What\u2019s the best time of day to upload? IS there a best time of day to upload? [SEP] \u2714\ufe0f Solved [SEP] Hey gang! My girlfriend and I are running a Let\u2019s Play channel together, and we\u2019ve been uploading videos every Wednesday and Saturday at exactly noon (in Chicago time, CST). Our videos haven\u2019t been performing THAT well, so I wanted to see if another time is somehow better. [SEP] Do you find that your videos perform better when uploaded at a different time of day? If so, what is it?",
+      "gold": "help_request",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "Who are your Let's Play inspirations? [SEP] I feel like most people here have a set of people who inspired you to go for it. I'd like for you to share some of them if you would be so kind.",
+      "gold": "general_discussion",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "Daily uploads or not? [SEP] I do daily uploads and I don't really want to stop, I am slightly addicted. But just out of curiosity what do you prefer from creators? [SEP] I have been trying to figure out if I absolutely should change my schedule or not. [SEP] I understand the argument of quality vs quantity but I genuinely enjoy the way I do it now, and i feel like my style is simple enough to enjoy but not so simple that it's just raw.",
+      "gold": "help_request",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "Looking for funny people to game with and boost each other's content!!! [SEP] \ud83d\udc4a Collab [SEP] Hey, im KnightSpectre. I post on YouTube with plans to stream in the future. I post gaming content but I structure it in cinematic ways in order to tell a story (usually in the way of challenge videos). I think it'd be fun to do some of these videos and new concepts with other people who are looking to do similar content or want to try something new. I also have plans to start a new channel where it's more relaxing gameplay and focused on the chemistry and humor which I would love people to collaborate with. Only requirements is that you must be 18+, creative with ideas and willing to make suggestions or accept criticism, open minded, and passionate!",
+      "gold": "promotion_outreach",
+      "predicted": "promotion_outreach"
+    },
+    {
+      "text": "First time having a viewer stay for more than 10 minutes in your stream [SEP] Man let me tell Y'all that feeling you get when you finally have someone watching your stream for more than 10 minutes it's fenomenol. Finished livestreaming and I had someone entertained for almost 40 minutes and that felt great. The person wasn't chatting but it felt good knowing that I was entertaining someone haha. If this is how it feels with one person just imagine getting 1k viewers and people chatting can't wait!!!",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Back and Forth on a \u201ccall to action\u201d graphic for my channel [SEP] \u2754 Question [SEP] So I\u2019m always refining my channel, at least seeing what I like and don\u2019t like while trying to wrap my head around pleasing the YouTube Algorithm Gods! My question now is should I have this \u201ccall to action\u201d animated graphic. I\u2019ve heard good things about them as well as it being more likely to turn viewers away. [SEP] Do you have any advice? I\u2019d greatly appreciate it.",
+      "gold": "help_request",
+      "predicted": "help_request"
+    },
+    {
+      "text": "reply from a weekly megathread [SEP] Views on vids are still pretty quiet as to be expected but I\u2019m still having fun creating them. I\u2019m eager to record more today (thanks Labor Day!) cos I\u2019ve started a new game and it\u2019s such an experience!! Not sure if it\u2019ll clash with what I\u2019ve been playing but I\u2019ve only just started out anyway so I guess now\u2019s the time. [SEP] Shorts have been\u2026 interesting. High views thanks to the new view thing but honestly the engaged views aren\u2019t terrible either, comparatively. And they\u2019ve earned me some followers, so I guess\u2026 that\u2019s good? They\u2019re not too hard to make, I just have to remember to flag something that might make a good one while editing. [SEP] Slow and steady!",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Can letsplayers make a deck of hobby cards? How can they do it? [SEP] So there's a video that the People Make Games channel recently uploaded displaying Jerry Gretzinger's fictional map that he's been making for over 60 years by painting and collaging tiles, he introduced a way to customize this map often by making a custom set of playing cards that he uses to customize and dictate how he is going to edit or make the map. This inspired a youtuber by the name of Wightstar to make his own deck of cards to help him with his art hobby and he poses a good idea that you can really make such a deck of cards for any hobby. [SEP] I'm making this post to ask how you would use this concept to help you letsplay? Can it be used for icebreakers or the topic of the video? Could it help you select which game to play for your channel? How would you use it?",
+      "gold": "general_discussion",
+      "predicted": "help_request"
+    },
+    {
+      "text": "For any kind of Streamers and Content creators [SEP] \ud83d\uddbc\ufe0f WIP Thumbnail Feedback (Weekend Only) [SEP] Hey everyone, I'm a senior in high school taking a computer science class, and for my final project, I want to build a tool that helps gamers. What is the most annoying, boring, or time-consuming part of managing your stream and your social media pages right now?",
+      "gold": "general_discussion",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "How do you guys edit your lets plays? [SEP] \ud83d\udde8\ufe0f Discussion [SEP] So I started over two weeks ago- I have three videos and truthfully all three have just been me experimenting as before this I have never recorded myself or edited a video in my entire life. I just knew I wanted a gaming channel as it\u2019s the one hobby I always go back to. [SEP] At first I was thinking in the whole traditional type vibe where I record my gameplay and my commentary live at the same time and then mostly upload as a VOD with minimal editing after but my commentary isn\u2019t so great and I have such a hard time focusing on the game while being interesting at the same time. So my last video I decided to record on separate audio tracks and do a blend- record my gameplay while having live commentary so I could have some genuine reactions in there and then edit the bad while being able to still add in commentary after while keeping the original video after edits. That- while extremely time consuming was a lot more fun to me as I felt a lot of weight lifted off in recording and then during my editing I would write some scripts and it felt a bit more creative. [SEP] I am unsure exactly how I want to do my next video, as this one is a survival game and I was considering recording a ton of gameplay and making a highlight reel of sorts of my adventure while fully doing the commentary after instead of even bothering at all while recording but I also know that\u2019s going to be extremely time consuming- which is fine but with a job and school I just don\u2019t know how I can get in a good enough groove to get posting regularly enough to even get some subs. [SEP] I am playing around with the idea of being an aesthetic driven variety gamer- mostly indie and very stylized type of games kind of leaning more on the cozy side but not strictly cozy games. I am a female gamer who doesn\u2019t want to just be boxed in to the stereotypical cozy games even though I do love playing them. The format I want to have are highly edited lets plays and some reviews/ rec videos in the future at some point as well.",
+      "gold": "help_request",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "ER trip was a blessing [SEP] TW: Knife injury mentioned but nothing graphic [SEP] I\u2019ve been uploading once a week, with the first week having 3 uploads at once, for a month and have been slacking a little on editing this next video, especially because it happens to be 3 hours of footage even though my goal has been to make my videos atleast a little shorter (~30 minutes from 45-60) so I\u2019ve been a little stressed about it I could edit in time had I work long night shifts and had my 4 days in a row coming up, and well. A knife to the finger and 3 stitches later and I\u2019ve got 3 extra days off with tonight already being pretty damn productive. Not only in learning some stuff and forcing myself to cut more things down to trim more time but also going back on some stuff to trim it and make it more stream lined and interesting for the viewer. I can\u2019t say I\u2019m thrilled to have injured myself but I\u2019m a lot happier working on my channel than being at work. All this kinda to say, I love YouTube and I\u2019m really proud of myself for keeping at it even when some of the dopamine hyper focus has weaned down, especially as someone with ADHD. [SEP] TLDR; Stitched up finger means no work but more YouTube!",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "\ud83c\udfae Looking for Long-Term Co-Op Gaming Partners & Recording Friends [Collab] [SEP] I\u2019m looking for genuine gamers who enjoy co-op games, good conversations, and building something over time. The goal isn\u2019t just a one-time session - I\u2019m hoping to find people who are interested in regular gaming, recording sessions, and creating fun memories together. [SEP] Looking for people who enjoy being part of a community, sharing their personality, and having conversations while we play. Games can include co-op survival, horror, party games, and anything that creates a good experience. [SEP] Sessions are usually held in the evenings (EDT), with some weekend flexibility. Looking for 18+ mature adults who communicate well, are reliable, and understand that good friendships and collaborations take time to build. Patience and a positive attitude are important. [SEP] If you\u2019re interested or want more information about the recording side, feel free to reach out!",
+      "gold": "promotion_outreach",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Hey guy's suggest me video genre where i don't need to do voice over nor shaders. [SEP] \u2754 Question [SEP] For youtube video. i don't know what to create. That's why asking from you. your suggestion can create a new minecraft genre. [SEP] So don't ignore it just tell me what you like in minecraft which you can watch whithout any voice over. [SEP] # System Details Report [SEP] --- [SEP] ## Report details [SEP] - **Date generated:** 2026-10-24 10:58:51 [SEP] ## Hardware Information: [SEP] - **Hardware Model:** INTEL Corporation H61 [SEP] - **Memory:** 16.0 GiB [SEP] - **Processor:** Intel\u00ae Core\u2122 i5-3470 \u00d7 4 [SEP] - **Graphics:** Intel\u00ae HD Graphics 2500 (IVB GT1) [SEP] - **Disk Capacity:** 512.1 GB [SEP] ## Software Information: [SEP] - **Firmware Version:** 4.6.5 [SEP] - **OS Name:** Zorin OS 18.1 Core [SEP] - **OS Build:** (null) [SEP] - **OS Type:** 64-bit [SEP] - **Windowing System:** X11 [SEP] - **Kernel Version:** Linux 7.0.0-38-generic",
+      "gold": "help_request",
+      "predicted": "help_request"
+    },
+    {
+      "text": "reply from a weekly megathread [SEP] I've published a condensed Castlevania 1 as I played it for the first time recently: [(youtube) url link] [SEP] My channel also hit 800 subscribers, and I'm really happy my efforts are being seen. Lately I've been binging La-Mulana, which is a mix of Castlevania and Indiana Jones and I'm having tons of fun with it, so much that I'm considering retiring one of my top 5 favorite games of all time to put that in \ud83d\ude42\u200d\u2195\ufe0f",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Storage and Old Playthroughs [SEP] Hey fam, [SEP] Just wandering what other creators do for storage and if they hold on to their old Playthrough videos or just delete them to save space. [SEP] I\u2019ve currently got 8tb of old footage stored across 4 different HDDs/SDDs which are already available on YT - I had thought I\u2019d reuse the footage to make other videos around the games and would reuse some clips from episodes etc. I spent a fair few hours editing videos which gained no traction so haven\u2019t really kept up with those vids as much as I lost a bit of motivation scripting, voicing and editing for a handful of views and low impression metrics (packaging could be done better but that\u2019s another topic) [SEP] Is it worth hanging on to these vids or just deleting them and downloading them from YT if the need arises? [SEP] Appreciate any advice.",
+      "gold": "help_request",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "Tired of going through the journey alone? Looking for fellow committed content creator accountability friend :) [SEP] Streaming can be such a lonely journey, and I'd really love to find another woman content creator who wants to be each other's daily cheerleaders to avoid burnouts and make this journey more enjoyable :) A content creator accountability buddy. [SEP] I'm looking for someone who's also positive mindset, committed, been streaming seriously for a while and understands the values of supportive friends. I'd love for us to be peers who can encourage one another consistently, learn from each other and grow little by little. [SEP] What I'm ideally looking for: [SEP] \ud83d\udcac Quick daily check-ins \u2014 nothing long! Just consistent check ins and sharing at least one small win each day. [SEP] \ud83d\udce3 Mutual cheerleading \u2014 help pull each other up esp when we're discouraged or stuck. [SEP] \ud83c\udf89 Celebrating small wins and effort, not only big numbers or results. [SEP] \ud83d\udca1 Sharing ideas, experiences, and what's working/not working for us. [SEP] \ud83e\ude9e Honest, constructive feedback \u2014 someone who can kindly give me a hard truth when I need it, and is also comfortable receiving the same from me. someone who can communicate by keeping me in loop as I am the same. [SEP] \ud83d\udcde Occasional weekly/biweekly calls to catch up more deeply. [SEP] \ud83c\udf31 A positive, proactive, growth-minded person who can communicate through struggles rather than shutting down or disappearing. [SEP] \ud83d\udc97 Hopefully a genuine long-term friendship alongside the accountability. [SEP] I'm not looking for F4F, viewers, networking, clout, raids, or promotion. Just looking for an authentic friendship who also understands ins and outs of streaming/content creation work so we can do daily check ins and continuously celebrate all of our wins - no matter how small they are!! to build confidence :) [SEP] Someone who values small steps make big results and want to just keep making progress, even when things aren't going perfectly. [SEP] A bit about me - I'm in my early 30s, F, have inattentive ADHD, and I'm into gaming, anime/Japanese culture, and creative things. I'd especially love another woman around my age who gets the creator + ADHD life. [SEP] If you're also wishing you had a fellow content creator who could be your daily cheerleader, honest friend, and someone who genuinely gets the journey, I'd love to hear from you. \ud83e\udd79\ud83d\udc97 [SEP] If you're looking for the same accountability partner friend, feel free to DM me with the word \"pocky\" so I know how serious you are by reading up to this point lol. Share with me a bit about yourself, your goals, what parts of the post you resonate with as well, what youre\u00a0looking for in an AP buddy, etc and we can go from there! I'd like to give it a 1-2 weeks trial run first too so no pressure to commit on both ends. I understand we won't really know how compatible we are unless we give it a try.",
+      "gold": "promotion_outreach",
+      "predicted": "reaction"
+    },
+    {
+      "text": "I want to create a YouTube channel where I post my reactions to smash hit video games I\u2019ve never played [SEP] Some backstory: I have been playing video games for over 20 years but I\u2019ve always almost exclusively played Nintendo. There are countless very popular video games I\u2019ve never played. Some series I\u2019ve never even touched include Red Dead, GTA, the Witcher, Assassin\u2019s Creed, Resident Evil. I\u2019ve never played Undertale, the Last of Us, Expedition 33, many of the Zelda games (ironically.) The list goes on and on. I started a let\u2019s play channel when TotK came out and it was unsuccessful, mostly because I made it way too hard for myself. I was trying to put out multiple episodes a day and gave myself a very tight schedule to get them out and I experienced burnout very quickly. This time I\u2019m thinking two longer videos a week, maybe 45 minutes to an hour. I also thought I would maybe make a Patreon or something where I post unedited versions. I might record 2 or 3 play throughs before posting anything to give myself plenty of slack. Any tips and advice would be greatly appreciated \ud83d\ude42 [SEP] TLDR: Longtime gamer who\u2019s been living under a rock wanting to play big games I\u2019ve missed over the years and post my reactions. Thinking of doing 2 45 min- 1 hr videos a week and creating a Patreon to post unedited videos. Looking for advice",
+      "gold": "help_request",
+      "predicted": "help_request"
+    },
+    {
+      "text": "Uncharted pc port [SEP] \u2754 Question [SEP] this is probably a silly question but would i get in trouble for posting a playthrough of the Uncharted pc port?",
+      "gold": "general_discussion",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "reply from a weekly megathread [SEP] [(youtube) url link] [SEP] Finally with a constant upload time of day, been working thru a whole bunch of new indie games :) [SEP] This one on Locomochi is my current fav!",
+      "gold": "promotion_outreach",
+      "predicted": "reaction"
+    },
+    {
+      "text": "I feel like I'm doing something wrong... [SEP] I've posted almost 1500 videos since I started in 2019, managing to scrape together ~1200 subs in that time. Yet I still feel like I'm doing something fundamentally wrong, as most of my vids never crack 100 views (apart from FF14) I just... I don't know if I'm missing something I should do to attract more viewers, or doing something to push them away, or anything. I've tried asking my community for feedback on what they like/ don't like/want more or less of, but all I get is crickets. Would love any sort of general advice.",
+      "gold": "help_request",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Idk the main point of this post\u2026 [SEP] \ud83d\udc4a Collab [SEP] I started like 2yrs ago and I honestly enjoy what I do, I make lets plays and play a lot of single player games. I had a break last year just to focus on myself and stuff but now I\u2019m making 3 vids a week and having fun [SEP] One thing I wish i had is a group of friends to play/record with having fun doin dumb stuff (I\u2019m a big Vanoss crew/Smii7y/The Boys fan) I don\u2019t really care about reaching a moment to where I can make money off YT I just like recording and sharing with ppl. [SEP] Ig a point is to just tell my story to whoever wants to read and hope it relates, maybe even make friends on here or smth who knows \ud83e\udd37\u200d\u2642\ufe0f [SEP] I play on ps5 and I\u2019m a 20yr dude of you\u2019re down to be friends or whatever hmu \ud83e\udd19",
+      "gold": "general_discussion",
+      "predicted": "promotion_outreach"
+    },
+    {
+      "text": "reply from a weekly megathread [SEP] Been working on and updating the thumbnails. [SEP] Still learning the ropes. Having lots of fun in the process.",
+      "gold": "general_discussion",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Finally, my dream is starting to have hope :D",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Is the let\u2019s play dead, or do I just suck? [SEP] Ive been taking YouTube seriously for the last year or so probably. Uploading every week the classic let\u2019s play format, but now recently I\u2019ve began adding goofy sound effects when something in the game happens and doing a little 30sec-1min blurb about the game and the media associated with the game (I play comic book/superhero based games so a lot of them are movie tie in games). I have fun doing this old school format and hope to one day make it a livable career! [SEP] I\u2019ve been feeling super discouraged lately after watching some videos on YouTube channel advice when it comes to gaming and saw a decline in views on my recent uploads, so I came to the conclusion that either the lets play style I do is dead and I need to stop, or I just suck and don\u2019t know how to do YouTube. It could be a simple case of me not knowing how to do stuff properly haha. [SEP] If anyone has any genuine advice they\u2019d like to share, it\u2019s appreciated!",
+      "gold": "help_request",
+      "predicted": "help_request"
+    },
+    {
+      "text": "Advice on video that has failed [SEP] Hey everyone, [SEP] I need some advice on my most recent upload that has failed. [SEP] To give a bit of background, I am a new channel, I only have 144 subscribes and have uploaded 5 videos. My views are as follows: [SEP] 1st video - 244 views [SEP] 2nd - 2.1k views [SEP] 3rd - 1.1k views [SEP] 4th - 16k views [SEP] 5th - 200 views [SEP] My latest (5th upload) has left me scratching my head. My channel is like a video essay type channel on different games. This latest videos early analytics were looking decent (nothing special), but enough to at least get to the 1k kinda mark I was hoping. [SEP] In the first 30 seconds, 63% of my audience is still there (similar to my videos that have cleared 1k. CTR is only 2.5% but again, that's very similar to my other videos that are 1+k views. Retention is 36.9%. None of these metrics are great, but Im trying to wrap my head around what's happened here as they are all similar to my last 3 videos but this one is performing horribly. [SEP] It's only been pushed to 4k people, while my last videos were pushed to 50k + people. Not the impressions line has completely stalled for nearly 14 hours like the video is done. I uploaded about 3 days ago. [SEP] Why has this video failed compared to my other 3 that all had similar metrics? Pretty gutted at the terrible performance and trying to think what to do, e.g., completely change the thumbnail and title and hope YouTube repackages it to a new audience. Or even delete and reupload with completely new packaging. If anything the quality of the actual video is better then my previous videos took [SEP] Thanks for the help in advance.",
+      "gold": "help_request",
+      "predicted": "help_request"
+    },
+    {
+      "text": "Looking to make friends with other content creators! [SEP] \ud83d\udc4a Collab [SEP] Hey everyone! [SEP] I\u2019m 24 and currently getting back into making gaming videos on YouTube. I\u2019ve been creating content on and off for quite a few years, and I\u2019m looking to meet some like-minded people who enjoy making entertaining gaming content. [SEP] I mainly enjoy co-op horror games, funny multiplayer games, random indie games, and honestly just about anything that could make for a fun video. [SEP] I\u2019m a big fan of creators like Smii7y, Vanoss, and TheDooo. I\u2019m not necessarily trying to replicate their content, but I really enjoy that style of humor where everyone bounces jokes off each other, commits to random bits, and just has a good time. [SEP] I\u2019m definitely not some comedic genius, nor do I expect anyone else to be. I\u2019m really just looking for people who enjoy having fun while also having that content creator mindset. People who can naturally joke around, improvise, and turn random gaming moments into something entertaining without forcing it. [SEP] Ideally, I\u2019d love to meet other creators around my age (20\u201330), but I\u2019m open to anyone 18+ as long as we get along. [SEP] I\u2019m also completely open to joining an already established group of creators! I\u2019m not necessarily looking to start my own group. I\u2019d be just as happy finding a few people to regularly record with or joining a group that already has good chemistry. [SEP] More than anything, I\u2019m hoping to make genuine friendships rather than just doing one-off collaborations. I think making videos is a lot more enjoyable when you\u2019re playing with people you genuinely get along with. [SEP] I work full-time and have a family, so weekends are typically when I\u2019m most available to record. [SEP] Subscriber counts don\u2019t matter to me. Whether you\u2019re just starting out or have been making videos for years, I\u2019m much more interested in personality, chemistry, and finding people who genuinely enjoy creating content. [SEP] If this sounds like your kind of thing, feel free to leave a comment or send me a DM! I\u2019d love to check out your content, get to know some people, and maybe play some games together!",
+      "gold": "promotion_outreach",
+      "predicted": "promotion_outreach"
+    },
+    {
+      "text": "Newish lets player looking to collab with people 21+ [SEP] Here are some of the games I'm down to play",
+      "gold": "promotion_outreach",
+      "predicted": "promotion_outreach"
+    },
+    {
+      "text": "Are there any YouTubers who make gaming videos/let'splay like a parody of TV show [SEP] \u2755 Help [SEP] For example, playing Minecraft like Bear Grylls (Man vs. Wild), or playing a fishing game like a River Monsters show, etc. [SEP] I have always had this idea, but it is hard to execute successfully as a new YouTuber. Are there any YouTubers who do this?",
+      "gold": "general_discussion",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "Mumbo talks about he's approaching Let's Plays for Minecraft and I think for a Let's Player and streamer, this helps me a lot [SEP] I'm a big fan of Mumbo, and I love how he outlines how he's approach his let's plays going forward, and for me, who streams a lot of games, I LOVE the idea/approach that he suggests here. [SEP] He speaks about how live streaming, and let's plays, being on the far end of the engagement spectrum, with episodics getting less and less engagement, rather suggesting something like a megacut and shorts to get better overall engagement, pushing users back to the original channel. [SEP] I can't share the link but easy to find. [SEP] I think for me, considering this is close to how I wanted to pivot next year, this is great! Let me know what you think though; would love to hear about your techniques when it comes to video creation.",
+      "gold": "general_discussion",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Any suggestions for youtubers that focus more on shooter games and they know actually what they're doing? .. For example i watch Operateurdrewski and karmakut [SEP] \ud83d\udcbb Video/Channel Recommendations (Weekend Only) [SEP] The youtubers who focus on tactical play, And if there's any of you favorites that worth watching suggest them as well",
+      "gold": "general_discussion",
+      "predicted": "general_discussion"
+    },
+    {
+      "text": "This one hit right in the feels... [SEP] I hope he continues making content, his lets play channel is videos of him and his dad playing games together. So wholesome. RIP Bart",
+      "gold": "reaction",
+      "predicted": "reaction"
+    }
+  ]
+}

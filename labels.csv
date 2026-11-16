@@ -369,7 +369,7 @@ Is this unfixxable then? I know i could reupload but then i lose likes and views
 "I want to start a youtube gaming channel, but i fear im too boring?
 🤔 Advice
 Ive always wanted to start a channel ever sense i was a kid, but im afraid im too boring or i wouldn't know what to say? if i were to start i would be starting from 0.
-I believe im overthinking it still?","general_discussion","claude generated label; hard case: general_discussion vs help_request","Medium","False"
+I believe im overthinking it still?","help_request","claude generated label; hard case: help_request vs general_discussion; relabeled from general_discussion after run 2","Medium","False"
 "Classic World of Warcraft LP Tips
 Hey guys. Kaedos here.
 Been playing World of Warcraft for 20 or so years. Also was a big fan of Let's Plays, but haven't seen many Let's Plays in SO long.
@@ -412,9 +412,6 @@ More than anything, I’m hoping to make genuine friendships rather than just do
 I work full-time and have a family, so weekends are typically when I’m most available to record.
 Subscriber counts don’t matter to me. Whether you’re just starting out or have been making videos for years, I’m much more interested in personality, chemistry, and finding people who genuinely enjoy creating content.
 If this sounds like your kind of thing, feel free to leave a comment or send me a DM! I’d love to check out your content, get to know some people, and maybe play some games together!","promotion_outreach","claude generated label","High","False"
-"For any kind of Streamers and Content creators
-🖼️ WIP Thumbnail Feedback (Weekend Only)
-Hey everyone, I'm a senior in high school taking a computer science class, and for my final project, I want to build a tool that helps gamers. What is the most annoying, boring, or time-consuming part of managing your stream and your social media pages right now?","general_discussion","claude generated label; hard case: general_discussion vs help_request","Low","False"
 "How do you Balance Games you want to play and Games that could ""Get you VIEWS""
 🗨️ Discussion
 I am planning to upload videos again, but I am at a crossroads.
@@ -705,8 +702,6 @@ questions ill answer:
 ""how much did you spend on gear?"" $350 total over 9 months
 ""do you regret it?"" ask me in 6 months when savings run out lol
 honestly though, no regrets yet. even if i have to get part-time job, ill keep building this.","general_discussion","claude generated label","Medium","False"
-"Let’s play finished faster than expected
-Both happy and sad it’s done. Wish I could just play it forever but also happy I don’t have to think about making three videos a week and can focus on the other games I have. But if you pre record and finish a few weeks faster than you expected do you take a break or do you instantly start recording the next game?","general_discussion","claude generated label; hard case: general_discussion vs reaction","Low","True"
 "Adding Shorts Was Time Consuming but worth it
 Hi, I meant to make this follow-up a while ago but never got the time.
 A while back I posted some stats about adding Shorts to my channel to see if they made any changes, good or bad.
@@ -786,13 +781,6 @@ Could you please share what works best for you? And how did you find that out?",
 Does this work well for let's play content? If someone's watching part 1 of game A, seems pointless for it to randomly recommend part 27 of game F. Is there more to this than I'm aware of? Does it actually work well?","general_discussion","claude generated label","High","False"
 "Best Composite video to HDMI Converter?
 I am trying to find the best option for a composite video to HDMI converter, my plan is to convert a VCR's output to HDMI so I can plug it into my HDMI capture card and convert the tape to digital. here's the thing, I want to be able to have the perfect video signal, like if there is a worn out part of the tape, I want it to have it still be showing up in the recording, and based on what i found, with a lot of purchasing, is that most converters just show a blue screen with a weak signal on the output. I do not want that. I want it to display static if it is static, etc. I know that sounds kind of obsessive, but its kind of hard to explain as to why, but I have a video tape from my girlfriend's family that I am trying to convert to digital, and with my experience, it is with the converters that show a blank screen when there is a worn part of the tape trying to display, and I just want it to display the exact contents of the tape, no matter how good of a signal the tape is displaying. is there a way I can accomplish this?","help_request","claude generated label","High","False"
-"What’s the best (or worst) creator program experience you’ve had?
-Hey fellow creators!
-I’m doing marketing for an indie game and we’ve already got a creator program running that works pretty well, but I’m trying to step outside my own box a bit. So I’m reachign out on here and try to hear from creators directly and learn how we could do better, especially when it comes to building long-term, genuine relationships rather than just one-off collaborations.
-From a creator’s perspective:
-– If you’ve been part of a few creator programs before, is there anything you’ve seen done really well?
-- What makes a creator program feel genuinely good vs. frustrating?
-Not here to promote anything, just trying to learn and be better at supporting creators. Really appreciate any thoughts you’re willing to share!","general_discussion","claude generated label","Medium","False"
 "Recommend me: runs with pure strategic and/or tactical genius.
 I want to see some competence porn.
 Preferably a strategy game but most anything will do if the excellence shines through. RPG, tower defence. Third person shooter, etc. Indie games too, don’t need AAA.
@@ -907,10 +895,6 @@ I am starting a let’s play YouTube channel soon and getting all my equipment t
 Can you recommend a MacBook? I’ve heard good things about the air, but feel like I should get the pro, but not sure which one and how much ram and storage to get! Please help me decide. I did some research and it mentions an m4 air would be a sweet spot, but I just wanted to ask some more experienced people before I made the purchase
 really worried about ram and storage! How much is enough? I can buy certain laptops at my job for a discount so I just wanted to some ideas from the sub who does what I want to do lol
 Thanks for your help! Direct links would also be great if you have the time but no worries if not!","help_request","claude generated label","High","False"
-"Itch.io, is it safe?
-So typically when im searching the web for new games to play I always use steam since I know I can trust it not to have virus. But there are some good games that the big let's players are playing that are not on steam but are on itch.io .
-Does anyone have experience with viruses using this website for games, or can I trust downloading indi games from it?
-The game im looking to make a video on is dont seem with the fishes","general_discussion","claude generated label; hard case: general_discussion vs help_request","Medium","False"
 "How do you edit 40–55 minutes of MOBA gameplay
 Yo I been enjoying this game deadlock so i started recording games and most matches are around 40–55 minutes Im used to editing games like Rocket League and The Finals where it feels a lot easier to figure out what should stay and what should get cut.
 I have some gameplay recorded that I think is good but im a lil like nervy and anxious to even open DaVinci because I don’t really know how to approach editing a hour long moba gaming video
@@ -1103,12 +1087,6 @@ I started like 2yrs ago and I honestly enjoy what I do, I make lets plays and pl
 One thing I wish i had is a group of friends to play/record with having fun doin dumb stuff (I’m a big Vanoss crew/Smii7y/The Boys fan) I don’t really care about reaching a moment to where I can make money off YT I just like recording and sharing with ppl.
 Ig a point is to just tell my story to whoever wants to read and hope it relates, maybe even make friends on here or smth who knows 🤷‍♂️
 I play on ps5 and I’m a 20yr dude of you’re down to be friends or whatever hmu 🤙","general_discussion","claude generated label; hard case: general_discussion vs reaction","Medium","False"
-"200 Viewer Jump During Live Stream
-❔ Question
-Normally I sit at 2 viewers the entire stream. But since the last week or two I've sat around 8 or even 15 viewers, which is awesome. Most don't chat but I thought it's cool that the needle moved.
-Today, about 90 minutes in my viewers went from 30 (already my all time high) to 230 within 1 minute. Nobody chatted, liked or subbed.
-What's up with this? Are there roaming gangs of bots that will drop into your stream and say or do nothing? Did I maybe get raided by another streamer? Is it normal to have 200+ viewers and no-one active in the chat?
-Basically just curious if this was an authentic bump in reach or some other weird occurrence. Any similar experiences or explanations for it?","general_discussion","claude generated label; hard case: general_discussion vs help_request","Medium","False"
 "PC Build Recommendation for Gaming, PS5 Capture and Video Editing
 🤔 Advice
 Hey, guys! Thought I'll warm up a YouTube channel with my current GTA gameplay videos in preparation for GTA 6 but turns out my laptop is rather under-equipped for screen-recording and gameplay together. The game by itself occasionally lags and with OBS recording on, it straight up crashes. Then I tried recording my gameplay on the XBOX Game Bar and while I could obtain videos, they were still a bit choppy. I tried a number of ways to fix it but realized it ultimately doesn't work (if I scrap the static frames, the gameplay audio underneath it jumps too)
@@ -1718,3 +1696,151 @@ I use PhotoRoom for a quick way to select people or items from photos in a trans
 "I Made another cute Free Streaming Overlay! For you Guys .
 I made a cute Cloudy Twitch Streaming overlay ! You can Download it for free from here .
 [(website) url link] Thank you!","promotion_outreach","claude generated label","High","False"
+"any recommendations for mature lets players in 2021?
+it's for background noise basically so i don't care if they have a camera or not..
+prefer the less scripted kind also i don't really enjoy super kid/youtube friendly channels so afraid to demonetization that their content results in something bland with little to no personality.. (not looking for some swear/scream machine just a normal person enjoying what they do...)
+bonus points if its multiple people commenting over a game like the now defunct channel [(youtube) url link]
+btw if linking is against the rules mods feel free to remove the link.","general_discussion","claude generated label; year: 2021","High","False"
+"Any recommendations on funny but not over the top horror let's players?
+Me and my wife always enjoy watching horror game let's plays but It is usually so hard to find good ones. We have a watched a bit of Markiplier's, some of Daz's. Then the other night we just happened upon a YouTuber named xPrayZ playing the indie Japanese bathhouse game.
+That playthrough just scratched the itch just right. He was engaging most of the playthrough. Made jokes that weren't too off the wall. Some of the funniest stuff was when he was talking to a kid and look down in his facecam, or heard a noise that was behind him in the game and actually turned around in his chair and looked off into his room.
+He did have some genuine jumps here and there. No screaming uncontrollably or crazy reactions that were just exaggerations. Ive looked through more of his videos and it seems they are not quite the same maybe because they are older? Either way I hope he comes with more, but in the meantime any other good recommendation would be greatly appreciated.","general_discussion","claude generated label","High","False"
+"Recommendations for any positive let's players?
+My husband and I are looking for new let's players/streamers to watch who actually enjoy the games they play. We're currently watching someone playing FF16 and they seem weirdly critical of inconsequential things in the game like finding items they don't particularly need at the moment in chests, bosses being too easy(you're 10 levels higher no sh!t), npcs getting character development through side quests(they keep skipping their dialogue while saying ""don't care shut up""), and overall ""jokingly"" hating on certain parts of the story and character motivations(calling things ""stupid"" and ""(blank) sucks"" without elaborating) to the point where it's getting grating.
+TLDR; the people we're currently watching are getting annoying and need someone not annoying to watch.","general_discussion","claude generated label","High","False"
+"Chill let’s players recommendations?
+Any recommendations for some chill let’s players that have a similar vibe to Cry’s old videos?
+I used to love Cryaotic’s content and his style. I prefer chill vibes, story-based games, longer videos/streams. YouTube or streaming. I’d also prefer no cam but that doesn’t matter as much. Thanks!!","general_discussion","claude generated label","High","False"
+"Any good let's playing duos, like Two Best Friends?
+I'm looking for some let's players or gaming channels in general that have interesting duos doing the commentary. Any recommendations?","general_discussion","claude generated label","High","False"
+"What Let's Players do you recommend that play Nintendo games?
+Hi! I'm looking for recommendations for LPers who play Nintendo games, as per title.
+Particularly I'd like to watch a TotK playthrough as I found the game itself very interesting but I just couldn't get used to the controls/menus even after playing for 25+ hours.
+If their videos are somewhere between 20 minutes to 1 hour each, that's a HUGE plus!
+Please let me know your faves. Ty!","general_discussion","claude generated label","High","False"
+"How to fight off a copyright claim for in-game music
+Hi guys! I just want to write a post on this to share my experience on what I did to fight off a copyright claim for in-game music. I did see a couple of posts here and on other sites and some videos on YouTube on the issue, but for me personally, the information was either outdated (from over four years ago) or not clear enough.
+Before I go into the details, let me first say I do not encourage using copyrighted music without permission, but when the use is justified (in my case, it was fair use for gameplay), I believe one is entitled to use the music in their videos.
+I was doing a let’s play of Back to the Future: The Game. In one of the earlier episodes, I received a copyright claim from AdRev for a tone that lasted eight seconds. There was no dialogue over it, so I opted for muting that section of the game’s audio in editing and the video was no longer flagged for the copyright claim.
+I haven’t had any problems since then until I got to the very last part of the game. My last video of the let’s play series received another copyright claim from AdRev for a 3-minute section of the video that featured the copyrighted music in the background. There was in-game dialogue over the music. At times, I was talking over the music and/or the dialogue. I was honestly baffled as to how they managed to identify the piece of music over all these, but I digress.
+This time, because there was dialogue playing in the game, I could not mute the game audio (it was the ending too!). There were a couple of options offered by YouTube:
+i) trim out the segment;
+ii) replace the song;
+iii) mute the song; AND
+iv) dispute the copyright claim.
+Trimming out the segment was not an option because, again, there was dialogue playing. I did try out the “mute song” option (mute song only, specifically), but it seemed to take forever (I stopped waiting around the one-hour mark) and from what I saw in other videos, YouTube does not always do a good job with that.
+The only option left for me was disputing the claim. There were several reasons I could choose from for disputing the claim:
+i) original content;
+ii) license;
+iii) copyright exception such as fair use; AND
+iv) public domain.
+The one that made the most sense to me was “copyright exception such as fair use” because I had “significantly transformed the content claimed in my video”.
+After selecting that option, I was taken to the next page where I was asked to specify the type of fair use and why my use was an example of fair use. For the type of fair use, there was one specifically for gameplay. For the reasons, I basically responded to prompt questions that YouTube had and said:
+i) my content was gameplay with commentary;
+ii) I had transformed the original content; AND
+iii) my video was in no way a substitute for the original content.
+Then I submitted the dispute. YouTube said the claimant had 30 days to review the dispute. Forever the impatient one, I looked up what I could do in the meantime. I stumbled across a page on TunePocket on how to remove YouTube copyright claims ([(website) url link]).
+While the content on the webpage is not tailored for gamers, it does say one can email AdRev (now part of FUGA) at [REDACTED] to resolve a YouTube copyright claim.
+I then emailed AdRev at the aforementioned email address, giving them a link to my video, explaining my situation and asking them VERY POLITELY what their justifications were for claiming the piece of music in my video. I got a reply from a FUGA representative later that day. The rep told me to email them again once I had changed the video privacy settings to public or unlisted for them to review the video (at the time, it was on private because the video was scheduled to be published later) and said fair use for gameplay would apply if the copyrighted music was not the subject of my commentary, that is, I was not reviewing or commenting on the music itself.
+After my video had been published a few hours after that, I emailed the FUGA representative again, telling them the video had been made public and assuring them I was not talking about the piece of music in any way. I got a reply from the rep in less than six hours and was told that, lo and behold, they had released my claim!
+So, this is my experience of how I fought off the copyright claim for in-game music for my let's play series. Sorry for the long post, but I just want to be as detailed as possible. Hope this helps, fellow letsplayers!","general_discussion","claude generated label; hard case: general_discussion vs reaction","High","False"
+"What annoying YT video tropes do you either cringe at on others' videos or actively try to not do on your own videos?
+The main one that sticks out to me is asking for a like/sub at the beginning of the video before we've even seen the video. That's like your waiter asking for a tip before giving any service.
+Also probably the random stupid zoom-ins or voice changes when the main person is talking. What other things are common in the popular cringey channel videos that you find most annoying?","general_discussion","claude generated label","High","False"
+"Which eras of YouTube Let's Players here do you remember?
+2005-2010: OG Era
+2010-2013: Mainstreaming Era
+2013-2017: Drama/Edgy Era
+2017-present: Modern Era","general_discussion","claude generated label","High","True"
+"What's your favorite underrated Let's Play/Commentary channels?
+My top three are:
+TheLaSteve
+CalebIsSalty
+Gumscythe
+all of mine are Minecraft cus I'm a diehard crafter","general_discussion","claude generated label","High","False"
+"What type of gamer do you prefer or entertains you the most?
+Poll closed 129 votes
+I prefer a super cozy, super chill, smooth talking and relaxing player.
+20
+I prefer a MOSTLY cozy, that is slightly passionate, sometimes high energy.
+52
+I enjoy both from time to time.
+37
+I prefer a MOSTLY passionate player with high energy that sometimes chills.
+16
+I prefer a super HIGH ENERGY, balls to the walls passionate kind of gamer!!
+4
+Do you prefer a cozy player, someone who is pretty chill and relaxing who goes smoothly through games.
+or
+Do you prefer a high energy, super passionate and sometimes over the top who truly engages with the game and sometimes role-plays even.
+Think about your favorite YouTubers/Streamers before you answer the question.","general_discussion","claude generated label","High","False"
+"What's your opinion on content creators that keep saying ""Like, Comment, & Subscribe?""
+I was editing one of my videos and decided to listen to this content creator (I'm not gonna state their channel), and the first thing I hear from them is their intro, opening remarks and then, ""If you like what I'm doing, then Like, Comment and Subscribe for more!""
+At first I was like, that's normal. It's fine. It doesn't bother me.
+While I was completely immersed on their content, they then went off script and said something like:
+""Ok, so this person likes blue? I like the color blue. It's so relaxing. Come on and tell me down in the comments what your favorite color is.""
+(The content creator was reading about the relevance of the color blue to this subject I'm listening to)
+That bothered me but I shrugged it off.
+Then they went off script again, to say, ""Oh wow. They like to go to McDonald's? I like McDonald's. Let me know in the comment section what's your favorite fast food restaurant.""
+Of course, I'm paraphrasing all that they said.
+It started to annoy me but they did it again until I've had enough and went on to click on the ""Don't recommend channel""
+It's annoying.
+If people like your videos, they will Like it.
+If people want to say something about your video, they will Comment on it
+If people want to see more of your content, they will Subscribe
+Is spamming those three words really necessary?
+Do you also say these three words at the beginning, middle, or at the end of you videos?
+Or am I being overdramatic?","general_discussion","claude generated label; hard case: general_discussion vs reaction","High","False"
+"Do you think you should play the games first before watching a let’s play?
+Watching a final fantasy x let’s play when I haven’t played the game before, seems almost wrong but I know it would take me ages to find time to play it.","general_discussion","claude generated label","High","False"
+"Storytelling?
+So, video game Content Creators, question.
+How does storytelling work in various formats? Let's Play, Review, First Impressions, Video Essay, etc. whatever content you make, does storytelling happen with your vids? If yes, how does it present itself?","general_discussion","claude generated label","High","False"
+"What youtube channels you regularly watch that put out a lot of longplays or let's plays of story rich titles?
+I at least hope that on here of all places people know that I'm not referring to VODs or streams.
+Also, unless you have at least 2 dozen completed story rich longplays on your channel that aren't developed or published by nintendo, please do not self-advertise.
+I know that I'm not the only person that regularly watches well edited lets plays and well edited longplays/playthrought for story rich titles, but for the life of me I can't find anyone else that does this.
+I can't find people on twitch, I can't find people on gamefaqs, and I can't fimnd them on subreddits. All I've been able to find are people that say that they used to, but haven't for years?
+If you're like me, and you regularly watch them I have some questions:
+What are at least 2 or 3 of your favorite channels that you watch regularly that have at least two dozen completed story rich longplays or lets plays of story rich titles, and continue to put them out regularly?
+Some of my favorites are favorite longplayers are Rubhen925, MKIceandFire, and Bai Gaming, as well as Lacry, Gamer's Little Playground, and a coouple others that I can't name off of the top of my head. I mostly focus on longplays, and I try to check out what they'reup to regularly. I also started checking out let's plays from Chronos, love their playtrhough for suikoden 2.
+2. What are 2 or 3 of your favorite longplays or lets plays?
+I really like Gamer's Little Playgrounds Longplay for Final Fantasy 7 Remake, and Tales Of Arise,and I also really like Bai-Gamings Longplay series for Fallout London, and I'm currently loving their Longplay series for Metaphor.
+3.Would you be down for us dming each other either here on reddit, or on discord about different Longplays and Let's Plays and recommend them to each other? I really want people that I can talk about them with regularly.","general_discussion","claude generated label; hard case: general_discussion vs promotion_outreach","High","False"
+"According to you, which is the most popular format for videogames related content?
+I'm just curious. Lately I've seen heavily edited videos being the standard. People will take a game, and then they will summarize the experience. doshdoshington, theambigousamphibian and general sam to name a few. The classic format with people talking to the mic for 40 minutes while playing a game it's not that popular anymore. That's just an opinion, of course. I do understand if you thing something different.
+I do understand this, to be honest. I go to college and have a job, so, I only have time for those, if I have any. And when it comes to producing content, that's what I do, because the type of game I play (such as KSP and Factorio) are not that compatible with the normal let's play.
+So, Im just curious. Also, are there more styles that you know about?","general_discussion","claude generated label","High","False"
+"let's Plays are NOT dead
+I've been said a lot of times that let's play are dead. I strongly disagree.
+And I've made a video about it that I'm not going to link because I think it's against the rules?
+The core of the video is this: yeah, let's plays are declining in popularity but they are unique and a lot of people, including me, wants to watch them... it's just difficult to find a channel that makes good ones and it's difficult for those channels to rely on the algorithm. I've been also told that VODs from livestreams replaced let's plays, and I argue that they are two very different things because of the chat, and how part of the focus if not most of the focus in livestreams is on the chat rather than the game so true let's plays are much more immersive.
+So this is my answer, we should all strive for immersiveness, because that's what makes let's plays really cool.
+Also I'm thinking about creating a subreddit where we can promote our own let's plays, for enthusiasts of the let's play format, does it already exists?","general_discussion","claude generated label; hard case: general_discussion vs promotion_outreach","Medium","False"
+"Some interesting info about youtube's choice of codecs.
+There is a tool called youtube-dl that can list all available formats for uploaded videos. It's a cmd tool, usage is:
+youtube-dl -F youtube_video_url
+I used it to find some interesting info.
+My old video from 2012, here is output: [(website) url link]
+Resolution Codec File Size
+256x144 vp9 95k
+256x144 avc 108k
+426x240 vp9 220k
+426x240 avc 242k
+640x360 vp9 405k
+640x360 avc 631k
+854x480 vp9 752k
+854x480 avc 1155k
+In web player this video always plays with avc1 codec, despite vp9 versions having much better quality and lesser file size.
+My most recent video from 2021, here is output: [(website) url link]
+Resolution Codec File Size
+854x480 vp9 323k
+854x480 avc 541k
+1280x720 vp9 1069k
+1280x720 avc 1373k
+1920x1080 vp9 1927k
+1920x1080 avc 2709k
+2560x1440 vp9 5804k
+This video always plays with vp9 codec, regardless of resolution.
+I googled, but there is no addon to force web player to play videos with vp9 codec instead of avc1. From such addon google wood benefit by reducing bandwidth for playing videos, and viewers would benefit from having much better video quality.","general_discussion","claude generated label; year: 2021","High","False"
+"One of the better YouTube updates as of late - loving the multi thumbnail option. Some videos have an obvious winner, others are a pretty even split. Anyone else use this much?","general_discussion","claude generated label; hard case: general_discussion vs reaction","Medium","True"

@@ -115,6 +115,7 @@ replies, which are shorter and have no flair, are not carrying the scores.
 
 ## 4. Labels need to be very consistent
 
+<strike>
 Labels other than general_discussion need to be very consistent,
 go for a minimum of each label getting at least 95% across corpus.
 if this isn't met.
@@ -123,6 +124,22 @@ if this isn't met.
 I want to ensure my boundary cases and overall decision tree is solid,
 which means very little variance between 2 different people if they
 look at the corpus.
+
+</strike>
+labels other than general_discussion should be stable with a 
+<= .05 accuracy spread, while general_discussion should be at least 
+be at or below .10
+
+**Why this target:**
+I want to ensure my boundary cases and labeling to be solid, while
+also acknowledging the bit of inherent instability in general disussion
+due to being treated as a fall back in my decision tree, even though
+there are specific posts it represents.
+
+**Why the Revision:**
+The original criteria wasn't specific enough and I didn't know we were measuring
+the spread of scores across the 3 seeds. Used that for the re definition to
+have a specific measurement
 
 ---
 

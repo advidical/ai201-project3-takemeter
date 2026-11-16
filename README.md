@@ -864,7 +864,7 @@ it seems the most appropriate would be to add more posts to general discussion t
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** **_ / 30 = _**%
+**Agreement rate:** **28 / 30 = 93**%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -888,33 +888,40 @@ it seems the most appropriate would be to add more posts to general discussion t
 
 **1.**
 
-> _The post:_
+> _The post:_ Carbon plates aren't the whole story. My times dropped 2% in the shoes and another 2% the following year in the same pair, when the only thing that changed was going from 35 to 50 miles a week.
 >
-> _Staff said / I said:_
+> _Staff said / I said:_ Staff said it was analysis, I said it was hot_take
 >
-> _My call, and why:_
+> _My call, and why:_ I couldn't pick up the argument being stated because it wasn't directly & clearly stated at least to me.
 >
-> _Which pile:_
+> _Which pile:_ it's pile b: Post doesn't explictly state the argument it's trying to back, so how can I know what the poster is arguing? It indicates a gap in the definitions, and it should account for arguments that aren't clearly stated.
 
 **2.**
 
-> _The post:_
+> _The post:_ Three of us ran the same session on the same day, different shoes, within 10 seconds of each other over 5 miles. I'm not saying shoes do nothing, but whatever they do was smaller than the noise between three people.
 >
-> _Staff said / I said:_
+> _Staff said / I said:_ staff was analysis, I was hot_take
 >
-> _My call, and why:_
+> _My call, and why:_ I felt the analysis by the poster fell short because they didn't do an A/B test ie they didn't actually test the different shoes vs using the same shoe, so I felt in that case the fact wasn't load bearing therefore it's hot_take
 >
-> _Which pile:_
+> _Which pile:_ it's pile c : the ruling is ambiguous because it doesn't state guidelines on how exactly to determine if a fact
+> is load bearing. I argue it doesn't pass that test because of the lack of a control test, therefore user can't back their argument.
 
 **What the pattern in my disagreements tells me:**
+That I am very analytical but also direct: I need arguments to be made explicit & I won't accept
+a post backed by evidence if argument needs an control/test experiment to back a claim, or needs a specific
+type of experiment appropriate for the argument in order to establish a 1-1 relationship rather than
+an interaction from an unknown 3rd variable.
 
 ---
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** I added 30 posts to general discussion that focused on its weakest boundary points
 
 **Which diagnosis pointed at it:**
+general_discussion consistently having the worst f1 score as a label across all seeds, and the confusion matrix
+confirming it's a boundary problem
 
 ### Run Log — After
 

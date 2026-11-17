@@ -67,7 +67,7 @@ about 3x what a coin flipper would get (25% x 3 = 75%)
 
 </strike>
 
-## 1. Model's overall accuracy 75%
+## 1. Model's overall accuracy 70%
 
 <!-- Your criterion. It must name a number. -->
 

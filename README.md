@@ -848,18 +848,21 @@ That's a problem with the dataset, so that improvement should hopefully raise my
 raise it to 75% every time. However, I do realize that the overall accuracy isn't aligned with the per
 label performance (.7 for help_request/general_discussion; .6 reaction/promotion_outreach). To make
 things somewhat more aligned with criterion#3, I'm dropping it to .70 overall accuracy.
-Still slighly higher than minimum per label accuracy combined, but that's fine.
+Still slighly higher than minimum per label accuracy combined, but that's intentional.
 
 **Criterion #3:** I missed this because I assumed that the labels with more examples would have better accuracy;
 which is probably the safe assumption if the model had no issues with label boundaries. Since there were issues
 with distinguishing boundaries, and general discussion particularly having boundary confusion, It's mostly an issue with
 the model and dataset. I'll see if adding the general discussion posts fixes this.
 
-**Criterion #4:** Missed this again due to model having trouble with identifying general_discussion correctly over
-help_request (and reaction for one seed). However, it also didn't help that I didn't specify how to determine
-consistency in the original, but I was lucky that the notebook had a metric baked in. I'll still rewrite the
-criterion to make that explicit, but the target of <= 5% spread will only need to be reached across all labels
-for one seed instead of 3 seeds.
+**Criterion #4:** Missed this due to the model being very inconsistent with my dataset, having spreads
+as high as .286 in one label. It could be my dataset being lopsided, but I think more likely due to the
+larger size posts, that it needs a larger dataset in general. It's also indicative of the differences
+between my decision tree and how the model is actually differentiating posts. A spec rewrite to match
+more of how the model is learning the posts will probably be beneficial.
+
+I'll still rewrite the criterion to make that explicit, but the target of <= 5% spread will only need to
+be reached across all labels for one seed instead of 3 seeds.
 
 <!-- For each miss: the cause, and how you know. The four common causes are:
      too few examples for a label, a boundary you applied inconsistently, a
@@ -1016,7 +1019,7 @@ and GD→PO errors rose from 3 to 6; so the boundary moved rather than disappear
 
 ---
 
-## Stretch Feature : Second Improvement
+## Stretch Feature : Second Measured Improvement
 
 **What I changed:** I changed which tokens the model reads and how many. For any post
 longer than 254 tokens I now keep the first 127 and the last 127 and drop the middle,
@@ -1032,7 +1035,7 @@ the effect of the head+tail cut from the effect of the shorter length.
 
 | Criterion                                                    | Target                                                           | Seed 42                                 | Seed 7                                | Seed 2024                             | Verdict                                   |
 | ------------------------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------- | ------------------------------------- | ------------------------------------- | ----------------------------------------- |
-| 1. Overall accuracy                                          | ≥ 0.75 on every seed                                             | 0.674                                   | 0.783                                 | 0.804                                 | **Miss** (seed 42; mean .754)             |
+| 1. Overall accuracy                                          | ≥ 0.70 on every seed                                             | 0.674                                   | 0.783                                 | 0.804                                 | **Miss** (seed 42; mean .754)             |
 | 2. Minimum counts per label                                  | HR ≥ 50, PO ≥ 40, RE ≥ 25, GD ≥ 30; corpus ≥ 200; no label > 70% | 301 rows: HR 90 · PO 63 · RE 56 · GD 92 | same file                             | same file                             | **Pass**                                  |
 | 3. Per-label F1                                              | HR ≥ .70, GD ≥ .70, PO ≥ .60, RE ≥ .60                           | HR .690 · GD .667 · PO .667 · RE .667   | HR .786 · GD .800 · PO .857 · RE .667 | HR .720 · GD .759 · PO .952 · RE .824 | **Miss** (seed 42 only: HR .690, GD .667) |
 | 4. Consistency (non-GD labels, F1 spread ≤ .05 across seeds) | spread ≤ .05                                                     | HR spread .096 · RE .157 · PO .286      |                                       |                                       | **Miss**                                  |
